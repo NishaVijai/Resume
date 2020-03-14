@@ -1,0 +1,131 @@
+
+h2, 
+h3 {
+    text-transform: uppercase;
+}
+
+.resume-left hr {
+    border: 1px solid rgb(102, 109, 8);
+    /* border: 1px solid #868D96; */
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.resume-container {
+    display: grid;
+    font-size: 1rem;
+    /* grid-template-columns: 300px 1fr; */
+    grid-template-columns: 1fr 2fr;
+}
+
+/* resume-left */
+
+.resume-left {
+    /* background-color: #2E3848; */
+    background-color: rgb(52, 60, 73);
+    color: rgb(187, 182, 182);
+    max-width: 250px;
+    padding: 30px;
+}
+
+.resume-left h3 {
+    padding: 10px 0;
+}
+
+.resume-left h3 {
+    /* color: rgb(131, 55, 79); */
+    color: rgb(87, 109, 8);
+}
+
+.resume-left p::first-letter {
+    text-transform: capitalize;
+}
+
+.resume-container a {
+    /* color: rgb(102, 121, 133); */
+    color: rgb(150, 134, 64);
+    text-decoration: none;
+}
+
+/* languages */
+
+.front-end-lang,
+.back-end-lang,
+.lang {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 5px; */
+}
+
+.front-end-lang p,
+.back-end-lang p,
+.lang p {
+    font-size: 0.9rem;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+
+.side-line {
+    /* background-color: rgb(136, 94, 94); */
+    background-color: rgb(187, 182, 182);
+    border-radius: 30px;
+    display: flex;
+    /* height: 15px; */
+    height: 12px;
+    /* margin: 20px; */
+    margin-top: -7px;
+    width: 150px;
+}
+
+.fill-in {
+    align-items: center;
+    /* background: linear-gradient(to left, rgb(112, 242, 123), rgb(136, 94, 94)); */
+    background: linear-gradient(to left, rgb(102, 109, 8), rgb(110, 94, 136));
+    border-radius: 30px;
+    box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
+    /* color: rgb(60, 65, 31); */
+    color: rgb(187, 182, 182);
+    display: flex;
+    font-size: 0.8rem;
+    /* height: 15px; */
+    height: 12px;
+    justify-content: center;
+    width: 90px;
+    position: absolute;
+    transition: 3s ease;
+}
+
+.fill-80 {
+    width: 120px;
+}
+
+.fill-70 {
+    width: 110px;
+}
+
+.fill-60 {
+    width: 100px;
+}
+
+.fill-30 {
+    width: 70px;
+}
+
+/* resume-right */
+
+.resume-right {
+    color: rgb(73, 109, 155);
+    display: grid;
+    /* grid-template-columns: 400px 1fr; */
+    grid-template-columns: 1fr 2fr;
+    padding: 30px;
+}
+
+.resume-right a {
+    /* color: #858C95; */
+    color: rgb(73, 109, 155);
+}
+
+address {
+    display: inline-block;
+}
