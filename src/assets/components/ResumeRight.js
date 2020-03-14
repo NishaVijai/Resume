@@ -9,28 +9,28 @@ export default class ResumeRight extends Component {
 					<div className="experience">
 						<h3>experience</h3>
 						<div className="project-1 projects">
-							<p>Oct 2019 - Nov 2019</p>
-							<p>front-end developer</p>
+							<p>October 2019 - November 2019</p>
+							<p>front-end web developer</p>
 							<p>chingu-voyage 12</p>
 						</div>
 						<hr />
 
 						<div className="project-2 projects">
-							<p>Sep 2019 - Oct 2019</p>
-							<p>front-end developer</p>
+							<p>September 2019 - October 2019</p>
+							<p>front-end web developer</p>
 							<p>chingu-voyage 11</p>
 						</div>
 						<hr />
 						<div className="project-3 projects">
 							<p>June 2019 - July 2019</p>
-							<p>front-end developer</p>
+							<p>front-end web developer</p>
 							<p>chingu-voyage 09</p>
 						</div>
 						<hr />
 
 						<div className="project-4 projects">
 							<p>May 2019 - June 2019</p>
-							<p>front-end developer</p>
+							<p>front-end web developer</p>
 							<p>chingu-voyage 08</p>
 						</div>
 						<hr />
@@ -69,6 +69,21 @@ export default class ResumeRight extends Component {
 					</div>
 
 					<div className="project-description">
+						<div className="project-1-description">
+							<p>solo project - built a cloning website</p>
+						</div>
+						<div className="project-2-description">
+							<p>solo project - built a cloning website</p>
+						</div>
+						<div className="project-3-description">
+							<p>group project - built a cloning website</p>
+						</div>
+						<div className="project-4-description">
+							<p>group project - built a cloning website</p>
+						</div>
+					</div>
+
+                    <div className="education-description">
 						<div className="project-1-description">
 							<p>solo project - built a cloning website</p>
 						</div>
