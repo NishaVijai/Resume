@@ -75,7 +75,7 @@ export default class ResumeLeft extends Component {
 
 							<p>danish</p>
 							<div className="side-line">
-								<div className="fill-in">50%</div>
+								<div className="fill-in fill-60">60%</div>
 							</div>
 
 							<p>tamil</p>
