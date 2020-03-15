@@ -22,14 +22,19 @@ h3 {
     /* background-color: #2E3848; */
     background-color: rgb(52, 60, 73);
     color: rgb(187, 182, 182);
+    font-weight: 500;
     max-width: 350px;
 }
 
 .resume-left h3 {
     color: rgb(107, 167, 94);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 20px;
     padding: 10px 0;
+}
+
+.resume-left p {
+    font-size: 1.1rem;
 }
 
 .resume-left p::first-letter {
@@ -179,12 +184,14 @@ address {
     /* padding: 20px 0; */
 }
 
-.projects p {
+.projects p,
+.degrees p {
     /* float: right; */
     padding-left: 30px;
 }
 
-.projects p:nth-of-type(1) {
+.projects p:nth-of-type(1),
+.degrees p:nth-of-type(1) {
     color: rgb(107, 167, 94);
     color: rgb(102, 109, 8);
     font-size: 0.9rem;
@@ -194,6 +201,11 @@ address {
 .projects p:nth-of-type(2) {
     font-size: 0.9rem;
     text-transform: capitalize;
+}
+
+.degrees p:nth-of-type(2) {
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .projects p:nth-of-type(3) {
@@ -207,3 +219,26 @@ address {
 }
 
 /* resume-right right-section */
+
+/* .project-description a {
+    color: rgb(102, 109, 8); 
+} */
+
+.right-section a {
+    color: rgb(102, 109, 8); 
+}
+
+.right-section hr {
+    margin: 20px 0;
+}
+
+.project-description p {
+    max-width: 600px; 
+    padding: 10px 0;
+}
+
+.education-description h4 {
+    color: rgb(109, 116, 49);
+    font-weight: 400;
+    text-transform: uppercase;
+}
