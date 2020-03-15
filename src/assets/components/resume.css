@@ -115,7 +115,7 @@ h3 {
     width: 70px;
 }
 
-/* ---------------------- */
+/* ------------------------------------------------------------------ */
 /* resume-right */
 
 .resume-right {
@@ -187,7 +187,7 @@ address {
 .projects p,
 .degrees p {
     /* float: right; */
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }
 
 .projects p:nth-of-type(1),

@@ -1,0 +1,90 @@
+#resume-right-container {
+    color: rgb(73, 109, 155);
+    display: grid;
+    /* gap: 1rem; */
+    grid-template-columns: 1fr;
+    padding: 30px;
+}
+
+#resume-right-container h2,
+#resume-right-container h3 {
+    padding: 20px 0;
+}
+
+#resume-right-container a {
+    /* color: #858C95; */
+    color: rgb(73, 109, 155);
+}
+
+address {
+    display: inline-block;
+}
+
+.left-section {
+    max-width: 250px;
+}
+
+.projects p,
+.degrees p {
+    padding-left: 30px;
+}
+
+.projects p:nth-of-type(1),
+.degrees p:nth-of-type(1) {
+    color: rgb(107, 167, 94);
+    color: rgb(102, 109, 8);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.projects p:nth-of-type(2) {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.degrees p:nth-of-type(2) {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.projects p:nth-of-type(3) {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+#second,
+#third {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-container,
+#education-container {
+    display: flex;
+}
+
+#projects-container hr {
+    margin: 10px 0;
+}
+
+#second a {
+    color: rgb(102, 109, 8);
+}
+
+#second hr,
+#third hr {
+    margin: 20px 0;
+}
+
+.project-description {
+    padding: 20px;
+    padding: 30px;
+}
+
+.project-description p {
+    max-width: 500px; 
+    /* padding: 10px 0; */
+    padding: 10px;
+}
