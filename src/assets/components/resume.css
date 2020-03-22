@@ -1,34 +1,40 @@
+address {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
 
 h2, 
 h3 {
     text-transform: uppercase;
 }
 
+/* ----------------------------------- */
 .resume-container {
     display: grid;
     font-size: 1rem;
-    /* grid-template-columns: 300px 1fr; */
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 25% auto;
 }
 
+/* resume-left */
 .resume-left,
 .resume-right {
     padding: 30px;
 }
 
-/* resume-left */
-
 .resume-left {
-    /* background-color: #2E3848; */
     background-color: rgb(52, 60, 73);
     color: rgb(187, 182, 182);
     font-weight: 500;
-    max-width: 350px;
+    height: 100%;
+    width: 100%;
 }
 
 .resume-left h3 {
     color: rgb(107, 167, 94);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 20px;
     padding: 10px 0;
 }
@@ -41,27 +47,34 @@ h3 {
     text-transform: capitalize;
 }
 
-.resume-container a {
-    /* color: rgb(102, 121, 133); */
+.personal {
+    width: 100%;
+}
+
+.personal a {
     color: rgb(150, 134, 64);
-    color: rgb(88, 155, 114);
     text-decoration: none;
 }
 
 .resume-left hr {
     border: 1px solid rgb(102, 109, 8);
-    /* border: 1px solid #868D96; */
     border-radius: 10px;
     margin-top: 30px;
 }
 
 /* resume-left languages */
+.front-end,
+.back-end,
+.languages {
+    display: flex;
+    flex-direction: column;
+}
 
 .front-end-lang,
 .back-end-lang,
 .lang {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
 }
 
 .front-end-lang p,
@@ -72,173 +85,52 @@ h3 {
 }
 
 .side-line {
-    /* background-color: rgb(136, 94, 94); */
     background-color: rgb(187, 182, 182);
     border-radius: 30px;
     display: flex;
-    height: 12px;
+    height: 15px;
     margin-top: 5px;
-    width: 150px;
+    width: 100%;
 }
 
 .fill-in {
     align-items: center;
-    /* background: linear-gradient(to left, rgb(112, 242, 123), rgb(136, 94, 94)); */
     background: linear-gradient(to left, rgb(102, 109, 8), rgb(110, 94, 136));
     border-radius: 30px;
     box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
-    /* color: rgb(60, 65, 31); */
     color: rgb(187, 182, 182);
     display: flex;
     font-size: 0.8rem;
-    /* height: 15px; */
-    height: 12px;
+    height: 15px;
     justify-content: center;
-    width: 90px;
+    width: 12%;
     position: absolute;
     transition: 3s ease;
 }
 
 .fill-80 {
-    width: 120px;
+    width: 15%;
 }
 
 .fill-70 {
-    width: 110px;
+    width: 14%;
 }
 
 .fill-60 {
-    width: 100px;
+    width: 13%;
 }
 
 .fill-30 {
-    width: 70px;
+    width: 10%;
 }
 
-/* ------------------------------------------------------------------ */
-/* resume-right */
-
-.resume-right {
-    /* background-color: rgb(206, 205, 205); */
-    color: rgb(73, 109, 155);
-    display: grid;
-    /* grid-template-columns: 400px 1fr; */
-    gap: 1rem;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-template-columns: 1fr 2fr;
-    grid-template-areas: ". title title"
-                "exp proj-desc proj-desc"
-                "edu edu-desc edu-desc";
-    /* padding: 30px; */
-}
-
-.empty {
-    /* grid-area: empty; */
-}
-
-.title {
-    grid-area: title;
-}
-
-.experience {
-    grid-area: exp;
-}
-
-.project-description {
-    grid-area: proj-desc;
-}
-
-.education {
-    grid-area: edu;
-}
-
-.education-description {
-    grid-area: edu-desc;
-}
-
-/* ------------- */
-
-.resume-right h2,
-.resume-right h3 {
-    padding: 20px 0;
-}
-
-.resume-right a {
-    /* color: #858C95; */
-    color: rgb(73, 109, 155);
-}
-
-address {
-    display: inline-block;
-}
-
-/* resume-right left-section */
-
-.left-section {
-    max-width: 250px;
-}
-
-.left-section h3 {
-    font-size: 1.3rem;
-    font-weight: 500;
-    /* padding: 20px 0; */
-}
-
-.projects p,
-.degrees p {
-    /* float: right; */
-    /* padding-left: 30px; */
-}
-
-.projects p:nth-of-type(1),
-.degrees p:nth-of-type(1) {
-    color: rgb(107, 167, 94);
-    color: rgb(102, 109, 8);
-    font-size: 0.9rem;
-    font-weight: 500;
-}
-
-.projects p:nth-of-type(2) {
-    font-size: 0.9rem;
-    text-transform: capitalize;
-}
-
-.degrees p:nth-of-type(2) {
-    font-size: 1.1rem;
-    font-weight: 600;
-}
-
-.projects p:nth-of-type(3) {
-    font-size: 1rem;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-
-.left-section hr {
-    margin: 10px 0;
-}
-
-/* resume-right right-section */
-
-/* .project-description a {
-    color: rgb(102, 109, 8); 
-} */
-
-.right-section a {
-    color: rgb(102, 109, 8); 
-}
-
-.right-section hr {
-    margin: 20px 0;
-}
-
-.project-description p {
-    max-width: 600px; 
-    padding: 10px 0;
-}
-
-.education-description h4 {
-    color: rgb(109, 116, 49);
-    font-weight: 400;
-    text-transform: uppercase;
+/* Media Query */
+@media only screen and (min-width: 700px) {
+    .resume-left,
+    .resume-right {
+        /* float: none; */
+        /* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; */
+    }
 }

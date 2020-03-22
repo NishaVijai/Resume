@@ -20,24 +20,32 @@ export default class ResumeLeft extends Component {
 				<div className="front-end">
 					<h3>front-end</h3>
 					<div className="front-end-lang">
-						<p>html</p>
-						<div className="side-line">
-							<div className="fill-in fill-80">80%</div>
+						<div>
+							<p>html</p>							
+							<div className="side-line">
+								<div className="fill-in fill-80">80%</div>
+							</div>
 						</div>
 
-						<p>css</p>
-						<div className="side-line">
-							<div className="fill-in fill-70">70%</div>
+						<div>
+							<p>css</p>							
+							<div className="side-line">
+								<div className="fill-in fill-70">70%</div>
+							</div>					
 						</div>
 
-						<p>javascript</p>
-						<div className="side-line">
-							<div className="fill-in fill-60">60%</div>
+						<div>
+							<p>javascript</p>
+							<div className="side-line">
+								<div className="fill-in fill-60">60%</div>
+							</div>
 						</div>
 
-						<p>react</p>
-						<div className="side-line">
-							<div className="fill-in">50%</div>
+						<div>
+							<p>react</p>
+							<div className="side-line">
+								<div className="fill-in">50%</div>
+							</div>
 						</div>
 					</div>
 				</div>
