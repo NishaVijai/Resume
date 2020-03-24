@@ -43,7 +43,7 @@ export default class ResumeRight extends Component {
 
 							<div className="project-1-description project-description">
 								<hr />
-								<p>
+								<p className="project-first-p">
 									Built a cloned Vaersgo website as my second solo project -{' '}
 									<a href=" https://vaersgo.netlify.com/" target="_blank" rel="noopener  noreferrer">
 										Cloned-Værsgo
@@ -165,13 +165,14 @@ export default class ResumeRight extends Component {
 							<div className="project-5-description project-description">
 								<p>
 									First ever group project work to build a static cloned Chingu website using HTML,
-									CSS and JavaScript<a
+									CSS and JavaScript {' '}<a
 										href="https://chingu-voyages.github.io/v8-toucans-team-09/"
 										target="_blank"
 										rel="noopener  noreferrer"
 									>
 										Cloned Chingu Website
-									</a>with two remote team members from England and Uganda. We used GitHub io to
+									</a>{' '}
+									with two remote team members from England and Uganda. We used GitHub io to
 									deploy our webpage. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v8-toucans-team-09"
@@ -200,8 +201,8 @@ export default class ResumeRight extends Component {
 										target="_blank"
 										rel="noopener  noreferrer"
 									>
-										TickyBot
-									</a>
+										TickyBot 
+									</a>{' '}
 									using HTML, CSS and JavaScript. Gained my first experience to deploy a website by
 									GitHub io. Github repository link -{' '}
 									<a
