@@ -1,0 +1,105 @@
+/* resume-left */
+.resume-left,
+.resume-right {
+    padding: 20px;
+}
+
+.resume-left {
+    background-color: rgb(52, 60, 73);
+    color: rgb(187, 182, 182);
+    font-weight: 500;
+    height: 100%;
+    width: 100%;    
+}
+
+.resume-left h3 {
+    color: rgb(107, 167, 94);
+    font-size: 1.2rem;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+.resume-left p {
+    font-size: 1.1rem;
+}
+
+.resume-left p::first-letter {
+    text-transform: capitalize;
+}
+
+.personal {
+    width: 100%;
+}
+
+.personal a {
+    color: rgb(150, 134, 64);
+    text-decoration: none;
+}
+
+.resume-left hr {
+    border: 1px solid rgb(102, 109, 8);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+/* resume-left languages */
+.front-end,
+.back-end,
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.front-end-lang,
+.back-end-lang,
+.lang {
+    display: flex;
+    flex-direction: column;
+}
+
+.front-end-lang p,
+.back-end-lang p,
+.lang p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.side-line {
+    background-color: rgb(187, 182, 182);
+    border-radius: 30px;
+    display: flex;
+    height: 15px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.fill-in {
+    align-items: center;
+    background: linear-gradient(to left, rgb(102, 109, 8), rgb(110, 94, 136));
+    border-radius: 30px;
+    box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
+    color: rgb(187, 182, 182);
+    display: flex;
+    font-size: 0.8rem;
+    height: 15px;
+    justify-content: center;
+    width: 10%;
+    position: absolute;
+    transition: 3s ease;
+}
+
+.fill-90 {
+    width: 17%;
+}
+
+.fill-80 {
+    width: 15%;
+}
+
+.fill-70 {
+    width: 13%;
+}
+
+.fill-60 {
+    width: 11.5%;
+}

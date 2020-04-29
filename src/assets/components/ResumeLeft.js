@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
+import './resumeLeft.css';
 
 export default class ResumeLeft extends Component {
 	render() {
 		return (
-			<div className="resume-left">
+			<section className="resume-left">
 				<div className="personal">
 					<h3>personal</h3>
 					<p>
 						self-taught front-end developer. Made few projects and obtained certificates from{' '}
 						<a href="https://chingu.io/" target="_blank" rel="noopener  noreferrer">
 							CHINGU-voyage
-						</a>. currently, working on 100DaysOfCode challenge. additionally learning Python and Advanced
+						</a>. Currently, working on 30DaysOfCode challenges. Additionally learning Python and Advanced
 						CSS.
 					</p>
 				</div>
@@ -59,11 +60,6 @@ export default class ResumeLeft extends Component {
 						<div className="side-line">
 							<div className="fill-in">50%</div>
 						</div>
-
-						<p>r</p>
-						<div className="side-line">
-							<div className="fill-in fill-30">30%</div>
-						</div>
 					</div>
 				</div>
 
@@ -84,7 +80,7 @@ export default class ResumeLeft extends Component {
 
 						<p>tamil</p>
 						<div className="side-line">
-							<div className="fill-in fill-80">80%</div>
+							<div className="fill-in fill-90">90%</div>
 						</div>
 
 						<p>hindi</p>
@@ -100,7 +96,7 @@ export default class ResumeLeft extends Component {
 				</div>
 
 				<hr />
-			</div>
+			</section>
 		);
 	}
 }

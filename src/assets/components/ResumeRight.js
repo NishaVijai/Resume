@@ -4,16 +4,14 @@ import './resumeRight.css';
 export default class ResumeRight extends Component {
 	render() {
 		return (
-			<div id="resume-right-container">
+			<section id="resume-right-container">
 				<div>
 					<div id="first">
-						<h2>front-end web developer</h2>
-
+						<header>
+							<h2>front-end web developer</h2>
+						</header>
+						
 						<hr />
-
-						<p>
-							Address: <address>Skibsegen 96, 3070 Snekkersten</address>
-						</p>
 
 						<p>
 							Mail: <a href="mailto:nishavijai@gmail.com">nishavijai@gmail.com</a>
@@ -34,7 +32,7 @@ export default class ResumeRight extends Component {
 					<div id="second">
 						<div id="projects-container">
 							<div className="project-1 projects left-section">
-								<h3>experience</h3>
+								<h3 className="h3-underline underline">experience</h3>
 								<p>October 2019 - November 2019</p>
 								<p>front-end web developer</p>
 								<p>chingu-voyage 12</p>
@@ -48,7 +46,7 @@ export default class ResumeRight extends Component {
 									<a href=" https://vaersgo.netlify.com/" target="_blank" rel="noopener  noreferrer">
 										Cloned-Værsgo
 									</a>{' '}
-									using React. The final product is deployed using Netlify. Github repository link - {' '}
+									using React. I have practiced my basic React knowledge while building this product. The final product is deployed using Netlify. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v12-solo-NishaVijai"
 										target="_blank"
@@ -70,7 +68,7 @@ export default class ResumeRight extends Component {
 
 							<div className="project-2-description project-description">
 								<p>
-									First solo project to build a cloned Kickstarter website -{' '}
+									My first solo project to build a cloned Kickstarter website -{' '}
 									<a
 										href="https://cloned-kickstarter.netlify.com/"
 										target="_blank"
@@ -111,7 +109,7 @@ export default class ResumeRight extends Component {
 									>
 										Shoe Web App
 									</a>{' '}
-									We used Heroku to deploy our final product. Github repository link -{' '}
+									I learned using react state, while working on this project. We used Heroku to deploy our final product. Github repository link -{' '}
 									<a
 										href="https://github.com/chingu-voyages/v9-toucans-team-14"
 										target="_blank"
@@ -133,7 +131,7 @@ export default class ResumeRight extends Component {
 
 							<div className="project-4-description project-description">
 								<p>
-									Pre-work solo project experience to build a chrome extension called -{' '}
+									Pre-work solo project experience to build a chrome extension for the first time. It is called -{' '}
 									<a
 										href="https://nishavijai.github.io/Chingu-09-prework-project/"
 										target="_blank"
@@ -164,7 +162,7 @@ export default class ResumeRight extends Component {
 
 							<div className="project-5-description project-description">
 								<p>
-									First ever group project work to build a static cloned Chingu website using HTML,
+									First ever group project working with two remote team members from England and Uganda. We build a static cloned Chingu website using HTML,
 									CSS and JavaScript {' '}<a
 										href="https://chingu-voyages.github.io/v8-toucans-team-09/"
 										target="_blank"
@@ -172,7 +170,7 @@ export default class ResumeRight extends Component {
 									>
 										Cloned Chingu Website
 									</a>{' '}
-									with two remote team members from England and Uganda. We used GitHub io to
+									. We used GitHub io to
 									deploy our webpage. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v8-toucans-team-09"
@@ -203,7 +201,7 @@ export default class ResumeRight extends Component {
 									>
 										TickyBot 
 									</a>{' '}
-									using HTML, CSS and JavaScript. Gained my first experience to deploy a website by
+									using HTML, CSS and Vanilla JavaScript. Gained my first experience to deploy a website using
 									GitHub io. Github repository link -{' '}
 									<a
 										href="https://github.com/NishaVijai/pre-work-solo-project"
@@ -220,7 +218,7 @@ export default class ResumeRight extends Component {
 					<div id="third">
 						<div id="education-container">
 							<div className="education-1 degrees left-section">
-								<h3>education</h3>
+								<h3 className="h3-underline underline">education</h3>
 								<p>August 2017 - January 2018</p>
 								<p>M.Sc. Programme</p>
 							</div>
@@ -249,71 +247,88 @@ export default class ResumeRight extends Component {
 
 						<div id="education-container">
 							<div className="education-3 degrees left-section">
-								<p>2003 - 2006</p>
+								<p>August 2014 - May 2015</p>
 
-								<p>MCA - Bharathidasan University - India</p>
+								<p>
+									FIF kursus - UCC
+								</p>
 							</div>
 
 							<div className="education-3-description project-description">
 								<h4>description</h4>
-								<p>Masters in Computer Applications</p>
+								<p>Forberedelseskursus for indvandrere og flygtninge på UCC- Skovlunde</p>
 							</div>
 						</div>
 
 						<div id="education-container">
 							<div className="education-4 degrees left-section">
-								<p>2000 - 2003</p>
+								<p>2003 - 2006</p>
 
-								<p>BCA - Jamal Mohamed College - Bharathidasan University - India</p>
+								<p>MCA - Bharathidasan University - India</p>
 							</div>
 
 							<div className="education-4-description project-description">
 								<h4>description</h4>
-								<p>Bachelors in Computer Applications</p>
+								<p>Master of Computer Applications</p>
 							</div>
 						</div>
 
 						<div id="education-container">
 							<div className="education-5 degrees left-section">
-								<p>1998 - 2000</p>
+								<p>2000 - 2003</p>
 
-								<p>St.Joseph's Girl's Higher Secondary School - India</p>
+								<p>BCA - Jamal Mohamed College - Bharathidasan University - India</p>
 							</div>
 
 							<div className="education-5-description project-description">
 								<h4>description</h4>
-								<p>Higher Secondary Schooling</p>
+								<p>Bachelor of Computer Applications</p>
 							</div>
 						</div>
 
 						<div id="education-container">
 							<div className="education-6 degrees left-section">
-								<p>1993 - 1998</p>
+								<p>1998 - 2000</p>
 
 								<p>St.Joseph's Girl's Higher Secondary School - India</p>
 							</div>
 
 							<div className="education-6-description project-description">
 								<h4>description</h4>
-								<p>Secondary Schooling</p>
+								<p>Higher Secondary Schooling</p>
 							</div>
 						</div>
 
 						<div id="education-container">
 							<div className="education-7 degrees left-section">
+								<p>1993 - 1998</p>
+
+								<p>St.Joseph's Girl's Higher Secondary School - India</p>
+							</div>
+
+							<div className="education-7-description project-description">
+								<h4>description</h4>
+								<p>Secondary Schooling</p>
+							</div>
+						</div>
+
+						<div id="education-container">
+							<div className="education-8 degrees left-section">
 								<p>1988 - 1993</p>
 
 								<p>Railway School - India</p>
 							</div>
 
-							<div className="education-7-description project-description">
+							<div className="education-8-description project-description">
 								<h4>description</h4>
 								<p>Primary Schooling</p>
 							</div>
 						</div>
 					</div>
+
+					
 				</div>
-			</div>
+			</section>
 		);
 	}
 }

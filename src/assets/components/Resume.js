@@ -8,13 +8,13 @@ export default class Resume extends Component {
 	render() {
 		return (
 			<div className="resume-container">
-				<div>
+				<aside>
 					<ResumeLeft />
-				</div>
+				</aside>
 
-				<div>
+				<main>
 					<ResumeRight />
-				</div>
+				</main>
 			</div>
 		);
 	}
