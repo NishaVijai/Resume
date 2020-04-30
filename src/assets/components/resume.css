@@ -38,14 +38,14 @@ h3 {
 }
 
 /* Media Query */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     * {
         font-size: 0.9rem;
     }
 
     .resume-container {
         display: grid;
-        grid-template-columns: 22% auto;
+        grid-template-columns: 25% auto;
         height: 100vh;
         width: 100vw;
     }
@@ -97,9 +97,21 @@ h3 {
         padding: 10px;
     }
 
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        /* padding: 0 20px; */
+        text-align: start;
+    }
+
+    .link-item {
+        padding: 10px;
+    }
+
     #first {
-        display: grid;
-        justify-content: left;
+        /* display: grid;
+        justify-content: left; */
+        display: flex;
     }
 
     #first hr {
@@ -111,8 +123,13 @@ h3 {
         padding: 0px;
     }
 
+    #second,
+    #third {
+        width: 90vw;
+    }
+
     .left-section {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .project-description hr {
@@ -120,7 +137,7 @@ h3 {
     }
 
     .project-description {
-        max-width: 70%;
+        /* max-width: 70%; */
     }
 
     .projects p:nth-of-type(3),
@@ -134,12 +151,12 @@ h3 {
 
     #projects-container,
     #education-container {
-        display: grid;
-        grid-template-columns: auto;
+        /* display: grid;
+        grid-template-columns: auto; */
     }
 
     .project-description {
-        width: 100%;
+        /* width: 100%; */
     }
 
     .projects hr {
@@ -187,6 +204,18 @@ h3 {
     
     .fill-60 {
         width: 13%;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.5rem;
+        padding-top: 10px;
+        text-align: end;
+    }
+
+    .link-item {
+        padding: 5px;
     }
 
     #resume-right-container h3 {

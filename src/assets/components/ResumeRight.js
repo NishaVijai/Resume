@@ -1,16 +1,36 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 import './resumeRight.css';
 
 export default class ResumeRight extends Component {
 	render() {
+		const scrollToTop = () => {
+			scroll.scrollToTop();
+		};
+
 		return (
 			<section id="resume-right-container">
+				<nav className="nav-item">
+					{/* <Link className="link-item" activeClass="active" to="first" spy={true} smooth={true} offset={0} duration={1000}>
+						Top
+					</Link> */}
+
+					<Link className="link-item" activeClass="active" to="second" spy={true} smooth={true} offset={0} duration={1000}>
+						Experience
+					</Link>
+
+					<Link className="link-item" activeClass="active" to="third" spy={true} smooth={true} offset={0} duration={1000}>
+						Education
+					</Link>
+				</nav>
+
 				<div>
 					<div id="first">
 						<header>
 							<h2>front-end web developer</h2>
 						</header>
-						
+
 						<hr />
 
 						<p>
@@ -46,7 +66,8 @@ export default class ResumeRight extends Component {
 									<a href=" https://vaersgo.netlify.com/" target="_blank" rel="noopener  noreferrer">
 										Cloned-Værsgo
 									</a>{' '}
-									using React. I have practiced my basic React knowledge while building this product. The final product is deployed using Netlify. Github repository link - {' '}
+									using React. I have practiced my basic React knowledge while building this product.
+									The final product is deployed using Netlify. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v12-solo-NishaVijai"
 										target="_blank"
@@ -109,7 +130,8 @@ export default class ResumeRight extends Component {
 									>
 										Shoe Web App
 									</a>{' '}
-									I learned using react state, while working on this project. We used Heroku to deploy our final product. Github repository link -{' '}
+									I learned using react state, while working on this project. We used Heroku to deploy
+									our final product. Github repository link -{' '}
 									<a
 										href="https://github.com/chingu-voyages/v9-toucans-team-14"
 										target="_blank"
@@ -131,7 +153,8 @@ export default class ResumeRight extends Component {
 
 							<div className="project-4-description project-description">
 								<p>
-									Pre-work solo project experience to build a chrome extension for the first time. It is called -{' '}
+									Pre-work solo project experience to build a chrome extension for the first time. It
+									is called -{' '}
 									<a
 										href="https://nishavijai.github.io/Chingu-09-prework-project/"
 										target="_blank"
@@ -162,16 +185,16 @@ export default class ResumeRight extends Component {
 
 							<div className="project-5-description project-description">
 								<p>
-									First ever group project working with two remote team members from England and Uganda. We build a static cloned Chingu website using HTML,
-									CSS and JavaScript {' '}<a
+									First ever group project working with two remote team members from England and
+									Uganda. We build a static cloned Chingu website using HTML, CSS and JavaScript {' '}
+									<a
 										href="https://chingu-voyages.github.io/v8-toucans-team-09/"
 										target="_blank"
 										rel="noopener  noreferrer"
 									>
 										Cloned Chingu Website
 									</a>{' '}
-									. We used GitHub io to
-									deploy our webpage. Github repository link - {' '}
+									. We used GitHub io to deploy our webpage. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v8-toucans-team-09"
 										target="_blank"
@@ -199,10 +222,10 @@ export default class ResumeRight extends Component {
 										target="_blank"
 										rel="noopener  noreferrer"
 									>
-										TickyBot 
+										TickyBot
 									</a>{' '}
-									using HTML, CSS and Vanilla JavaScript. Gained my first experience to deploy a website using
-									GitHub io. Github repository link -{' '}
+									using HTML, CSS and Vanilla JavaScript. Gained my first experience to deploy a
+									website using GitHub io. Github repository link -{' '}
 									<a
 										href="https://github.com/NishaVijai/pre-work-solo-project"
 										target="_blank"
@@ -214,6 +237,8 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 					</div>
+
+					<button className="to-top-button" onClick={scrollToTop}> Top </button>
 
 					<div id="third">
 						<div id="education-container">
@@ -249,9 +274,7 @@ export default class ResumeRight extends Component {
 							<div className="education-3 degrees left-section">
 								<p>August 2014 - May 2015</p>
 
-								<p>
-									FIF kursus - UCC
-								</p>
+								<p>FIF kursus - UCC</p>
 							</div>
 
 							<div className="education-3-description project-description">
@@ -325,8 +348,6 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 					</div>
-
-					
 				</div>
 			</section>
 		);
