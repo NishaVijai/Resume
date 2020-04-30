@@ -6,21 +6,25 @@ import './resumeRight.css';
 export default class ResumeRight extends Component {
 	render() {
 		const scrollToTop = () => {
-			scroll.scrollToTop();
+			scroll.scrollTo(2);
+		};
+
+		const scrollToExperience = () => {
+			scroll.scrollTo(200);
+		};
+
+		const scrollToEducation = () => {
+			scroll.scrollTo(1150);
 		};
 
 		return (
 			<section id="resume-right-container">
 				<nav className="nav-item">
-					{/* <Link className="link-item" activeClass="active" to="first" spy={true} smooth={true} offset={0} duration={1000}>
-						Top
-					</Link> */}
-
-					<Link className="link-item" activeClass="active" to="second" spy={true} smooth={true} offset={0} duration={1000}>
+					<Link tabIndex="0" className="link-item" onKeyPress={scrollToExperience} activeClass="active" to="second" spy={true} smooth={true} offset={0} duration={1000}>
 						Experience
 					</Link>
 
-					<Link className="link-item" activeClass="active" to="third" spy={true} smooth={true} offset={0} duration={1000}>
+					<Link tabIndex="0" className="link-item" onKeyPress={scrollToEducation} activeClass="active" to="third" spy={true} smooth={true} offset={0} duration={1000}>
 						Education
 					</Link>
 				</nav>
@@ -122,7 +126,7 @@ export default class ResumeRight extends Component {
 								<p>
 									First time experience to build a dynamic web app using REACT with two remote team
 									members. One of the team member chose an app from Dribbble. We have divided the
-									components and built a final MVP together -{' '}
+									components and used Trello for the first time to build our final MVP together -{' '}
 									<a
 										href="https://chingu-shoe-project.herokuapp.com/"
 										target="_blank"
@@ -147,7 +151,7 @@ export default class ResumeRight extends Component {
 							<div className="project-4 projects left-section">
 								<p>May 2019</p>
 								<p>front-end web developer</p>
-								<p>chingu-voyage 09 - prework-solo-project</p>
+								<p>chingu-voyage 09 -<br /> prework-solo-project</p>
 								<hr />
 							</div>
 
@@ -194,7 +198,7 @@ export default class ResumeRight extends Component {
 									>
 										Cloned Chingu Website
 									</a>{' '}
-									. We used GitHub io to deploy our webpage. Github repository link - {' '}
+									. We used GitHub board to track our tasks. Additionally, we used GitHub to deploy our webpage. Github repository link - {' '}
 									<a
 										href="https://github.com/chingu-voyages/v8-toucans-team-09"
 										target="_blank"
@@ -210,7 +214,7 @@ export default class ResumeRight extends Component {
 							<div className="project-6 projects left-section">
 								<p>February 2019</p>
 								<p>front-end web developer</p>
-								<p>chingu-voyage 08 - prework-solo-project</p>
+								<p>chingu-voyage 08 - <br />prework-solo-project</p>
 								<hr />
 							</div>
 
@@ -237,8 +241,6 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 					</div>
-
-					<button className="to-top-button" onClick={scrollToTop}> Top </button>
 
 					<div id="third">
 						<div id="education-container">
@@ -300,7 +302,8 @@ export default class ResumeRight extends Component {
 							<div className="education-5 degrees left-section">
 								<p>2000 - 2003</p>
 
-								<p>BCA - Jamal Mohamed College - Bharathidasan University - India</p>
+								<p>BCA - Jamal Mohamed College - <br />
+								Bharathidasan University - India</p>
 							</div>
 
 							<div className="education-5-description project-description">
@@ -313,7 +316,7 @@ export default class ResumeRight extends Component {
 							<div className="education-6 degrees left-section">
 								<p>1998 - 2000</p>
 
-								<p>St.Joseph's Girl's Higher Secondary School - India</p>
+								<p>St.Joseph's Girl's Higher Secondary <br />School - India</p>
 							</div>
 
 							<div className="education-6-description project-description">
@@ -326,7 +329,7 @@ export default class ResumeRight extends Component {
 							<div className="education-7 degrees left-section">
 								<p>1993 - 1998</p>
 
-								<p>St.Joseph's Girl's Higher Secondary School - India</p>
+								<p>St.Joseph's Girl's Higher Secondary <br />School - India</p>
 							</div>
 
 							<div className="education-7-description project-description">
@@ -348,6 +351,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 					</div>
+					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}> Top </button>
 				</div>
 			</section>
 		);

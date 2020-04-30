@@ -9,7 +9,7 @@
     color: rgb(187, 182, 182);
     font-weight: 500;
     height: 100%;
-    width: 100%;    
+    /* width: 100%; */
 }
 
 .resume-left h3 {
@@ -28,7 +28,7 @@
 }
 
 .personal {
-    width: 100%;
+    /* width: 100%; */
 }
 
 .personal a {
@@ -70,7 +70,7 @@
     display: flex;
     height: 15px;
     margin-top: 5px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .fill-in {

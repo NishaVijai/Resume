@@ -46,8 +46,8 @@ h3 {
     .resume-container {
         display: grid;
         grid-template-columns: 25% auto;
-        height: 100vh;
-        width: 100vw;
+        /* height: 100vh;
+        width: 100vw; */
     }
 
     .resume-left h3,
@@ -125,7 +125,7 @@ h3 {
 
     #second,
     #third {
-        width: 90vw;
+        /* width: 90vw; */
     }
 
     .left-section {
@@ -169,7 +169,7 @@ h3 {
     }
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 500px) {
     * {
         font-size: 0.9rem;
     }
@@ -181,9 +181,9 @@ h3 {
 
     .resume-container {
         display: grid;
-        grid-template-columns: 30% auto;
-        height: 100vh;
-        width: 100vw;
+        grid-template-columns: 32% 1fr;
+        /* height: 100vh; */
+        /* width: 100vw; */
     }
 
     .fill-in {
@@ -212,33 +212,55 @@ h3 {
         font-size: 0.5rem;
         padding-top: 10px;
         text-align: end;
+        /* position: fixed; */
+        top: 30px;
+        right: 20px;
     }
 
     .link-item {
         padding: 5px;
     }
 
+    .to-top-button {
+        top: 92%;
+        right: 20px;
+    }
+
     #resume-right-container h3 {
         padding: 0;
     }
 
-    .underline {
-        background-repeat: repeat-x;
-    }
-
-    .h3-underline {
-        background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
-        background-position: 0 1.02em;
-        background-size: 12px 8px;
-        width: 34%;
-    }
-
     #first {
+        display: grid;
+        justify-content: left;
+    }
+
+    .left-section,
+    .project-description {
         width: 100%;
     }
 
-    .project-description,
-    .left-section {
-        max-width: 100%;
+    #projects-container,
+    #education-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .underline {
+        /* background-repeat: repeat-x; */
+    }
+
+    .h3-underline {
+        /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/78779/heart.png");
+        background-position: 0 1.02em;
+        background-size: 12px 8px;
+        width: 34%; */
+        color: #e48d1b;
+    }
+
+    #first,
+    #second,
+    #third {
+        /* max-width: 60%; */
     }
 }

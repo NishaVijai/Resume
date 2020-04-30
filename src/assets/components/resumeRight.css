@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr;
     padding: 30px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #resume-right-container h2,
@@ -25,9 +25,16 @@
     text-transform: uppercase;
 }
 
+.link-item:hover,
+.link-item:focus {
+    background: rgb(191, 227, 241);
+    color: rgb(221, 135, 23);
+}
+
 .nav-item > .active {
     /* border-bottom: 2px solid rgb(102, 109, 8); */
-    border-bottom: 2px solid rgb(139, 102, 114);
+    /* border-bottom: 2px solid rgb(139, 102, 114); */
+    border-bottom: 2px solid rgb(221, 135, 23);
 }
 
 #first {
@@ -35,7 +42,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #first hr {
@@ -54,34 +61,43 @@
 
 .to-top-button {
     background: rgba(212, 209, 210, 0.5);
-    border-radius: 20px;
+    border: 1px solid rgb(73, 109, 155);
+    border-radius: 50%;
     color: rgb(75, 64, 17);
     font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
     padding: 5px;
     position: fixed;
     text-transform: uppercase;
     top: 92%;
     right: 20px;
     outline: none !important;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-.to-top-button:hover {
-    background: rgb(124, 126, 107);
-    color: #fff;
+.to-top-button:hover,
+.to-top-button:focus {
+    /* background: rgb(162, 205, 221); */
+    background: rgb(191, 227, 241);
+    /* color: #fff; */
+    color: rgb(221, 135, 23);
 }
 
 .left-section {
     float: left;
-    padding-top: 20px;
+    /* padding-top: 20px; */
+    padding-top: 10px;
     width: 25%;
 }
 
 .project-description {
+    font-size: 1.1rem;
     padding: 30px 10px 0px 20px;
+    /* max-width: 400px; */
     width: 75%;
 }
 
@@ -94,7 +110,7 @@
 #projects-container,
 #education-container {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .degrees {
@@ -114,7 +130,7 @@
 }
 
 .projects p:nth-of-type(2) {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-transform: capitalize;
 }
 
