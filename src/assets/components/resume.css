@@ -46,8 +46,6 @@ h3 {
     .resume-container {
         display: grid;
         grid-template-columns: 25% auto;
-        /* height: 100vh;
-        width: 100vw; */
     }
 
     .resume-left h3,
@@ -100,7 +98,6 @@ h3 {
     .nav-item {
         display: flex;
         flex-direction: column;
-        /* padding: 0 20px; */
         text-align: start;
     }
 
@@ -109,8 +106,6 @@ h3 {
     }
 
     #first {
-        /* display: grid;
-        justify-content: left; */
         display: flex;
     }
 
@@ -123,21 +118,8 @@ h3 {
         padding: 0px;
     }
 
-    #second,
-    #third {
-        /* width: 90vw; */
-    }
-
-    .left-section {
-        /* width: 100%; */
-    }
-
     .project-description hr {
         display: none;
-    }
-
-    .project-description {
-        /* max-width: 70%; */
     }
 
     .projects p:nth-of-type(3),
@@ -147,16 +129,6 @@ h3 {
 
     .project-first-p {
         padding-top: 10px;
-    }    
-
-    #projects-container,
-    #education-container {
-        /* display: grid;
-        grid-template-columns: auto; */
-    }
-
-    .project-description {
-        /* width: 100%; */
     }
 
     .projects hr {
@@ -182,8 +154,6 @@ h3 {
     .resume-container {
         display: grid;
         grid-template-columns: 32% 1fr;
-        /* height: 100vh; */
-        /* width: 100vw; */
     }
 
     .fill-in {
@@ -212,7 +182,6 @@ h3 {
         font-size: 0.5rem;
         padding-top: 10px;
         text-align: end;
-        /* position: fixed; */
         top: 30px;
         right: 20px;
     }
@@ -246,6 +215,7 @@ h3 {
         grid-template-columns: auto;
     }
 
+    /* Underline using heart emoji */
     .underline {
         /* background-repeat: repeat-x; */
     }
@@ -256,11 +226,5 @@ h3 {
         background-size: 12px 8px;
         width: 34%; */
         color: #e48d1b;
-    }
-
-    #first,
-    #second,
-    #third {
-        /* max-width: 60%; */
     }
 }
