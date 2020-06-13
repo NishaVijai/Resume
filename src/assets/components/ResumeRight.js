@@ -54,9 +54,10 @@ export default class ResumeRight extends Component {
 					</div>
 
 					<div id="second">
+						<h3 className="h3-underline underline">experience</h3>
 						<div className="projects-container">
 							<div className="project-1 projects left-section">
-								<p className="h3-underline underline">experience</p>
+								
 								<p>October 2019 - November 2019</p>
 								<p>front-end web developer</p>
 								<p>chingu-voyage 12</p>
@@ -243,9 +244,10 @@ export default class ResumeRight extends Component {
 					</div>
 
 					<div id="third">
+						<h3 className="h3-underline underline">education</h3>
 						<div className="education-container">
 							<div className="education-1 degrees left-section">
-								<h3 className="h3-underline underline">education</h3>
+								
 								<p>August 2017 - January 2018</p>
 								<p>M.Sc. Programme</p>
 							</div>
