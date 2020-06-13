@@ -7,7 +7,7 @@
 
 #resume-right-container h2,
 #resume-right-container h3 {
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 .nav-item {
@@ -103,7 +103,7 @@ h1 {
 
 .left-section {
     float: left;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     width: 25%;
 }
 
@@ -127,7 +127,7 @@ h1 {
 }
 
 .degrees {
-    padding: 10px 0;
+    /* padding: 10px 0; */
 }
 
 .projects p,
@@ -161,7 +161,7 @@ h1 {
 }
 
 .project-first-p {
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 #second a {
@@ -172,4 +172,8 @@ h1 {
 #second hr,
 #third hr {
     margin: 20px 0;
+}
+
+#second h3 {
+    margin-top: 20px;
 }
