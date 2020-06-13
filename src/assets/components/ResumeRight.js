@@ -31,11 +31,11 @@ export default class ResumeRight extends Component {
 
 				<div>
 					<div id="first">
-						<header>
-							<h2>front-end web developer</h2>
+						{/* <header>
+							<h1>front-end web developer</h1>
 						</header>
 
-						<hr />
+						<hr /> */}
 
 						<p>
 							Mail: <a href="mailto:nishavijai@gmail.com">nishavijai@gmail.com</a>
@@ -54,9 +54,9 @@ export default class ResumeRight extends Component {
 					</div>
 
 					<div id="second">
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-1 projects left-section">
-								<h3 className="h3-underline underline">experience</h3>
+								<p className="h3-underline underline">experience</p>
 								<p>October 2019 - November 2019</p>
 								<p>front-end web developer</p>
 								<p>chingu-voyage 12</p>
@@ -83,7 +83,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-2 projects left-section">
 								<p>September 2019 - October 2019</p>
 								<p>front-end web developer</p>
@@ -114,7 +114,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-3 projects left-section">
 								<p>June 2019 - July 2019</p>
 								<p>front-end web developer</p>
@@ -147,7 +147,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-4 projects left-section">
 								<p>May 2019</p>
 								<p>front-end web developer</p>
@@ -179,7 +179,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-5 projects left-section">
 								<p>March 2019 - April 2019</p>
 								<p>front-end web developer</p>
@@ -210,7 +210,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="projects-container">
+						<div className="projects-container">
 							<div className="project-6 projects left-section">
 								<p>February 2019</p>
 								<p>front-end web developer</p>
@@ -243,7 +243,7 @@ export default class ResumeRight extends Component {
 					</div>
 
 					<div id="third">
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-1 degrees left-section">
 								<h3 className="h3-underline underline">education</h3>
 								<p>August 2017 - January 2018</p>
@@ -257,7 +257,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-2 degrees left-section">
 								<p>August 2016 - January 2017</p>
 
@@ -272,7 +272,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-3 degrees left-section">
 								<p>August 2014 - May 2015</p>
 
@@ -285,7 +285,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-4 degrees left-section">
 								<p>2003 - 2006</p>
 
@@ -298,7 +298,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-5 degrees left-section">
 								<p>2000 - 2003</p>
 
@@ -312,7 +312,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-6 degrees left-section">
 								<p>1998 - 2000</p>
 
@@ -325,7 +325,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-7 degrees left-section">
 								<p>1993 - 1998</p>
 
@@ -338,7 +338,7 @@ export default class ResumeRight extends Component {
 							</div>
 						</div>
 
-						<div id="education-container">
+						<div className="education-container">
 							<div className="education-8 degrees left-section">
 								<p>1988 - 1993</p>
 

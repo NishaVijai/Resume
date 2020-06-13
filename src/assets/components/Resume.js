@@ -13,6 +13,11 @@ export default class Resume extends Component {
 				</aside>
 
 				<main>
+					<header>
+						<h1>front-end web developer</h1>
+					</header>
+
+					<hr id="h1-hr" />
 					<ResumeRight />
 				</main>
 			</div>

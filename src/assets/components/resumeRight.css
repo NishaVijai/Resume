@@ -28,6 +28,7 @@
 .link-item:focus {
     background: rgb(191, 227, 241);
     color: rgb(221, 135, 23);
+    font-size: 1.3rem;
 }
 
 .nav-item > .active {
@@ -41,10 +42,24 @@
     justify-content: center;
 }
 
-#first hr {
+h1 {
+    color: rgb(73, 109, 155);
+    font-size: 1.7rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#h1-hr {
     border-bottom: 2px solid rgb(73, 109, 155);
-    margin-top: -20px;
+    border-bottom: 2px solid rgb(221, 135, 23);
+    margin: auto;
     width: 30%;
+}
+
+#first hr {
+    /* border-bottom: 2px solid rgb(73, 109, 155);
+    margin-top: -20px;
+    width: 30%; */
 }
 
 #first p {
@@ -53,6 +68,10 @@
 
 #first a {
     color: rgb(102, 109, 8);
+    color: rgb(233, 116, 48);
+    color: rgb(1, 2, 24);
+    font-style: italic;
+    /* font-weight: 600; */
 }
 
 .to-top-button {
@@ -65,8 +84,9 @@
     letter-spacing: 0.1rem;
     padding: 5px;
     position: fixed;
+    bottom: 5%;
     text-transform: uppercase;
-    top: 92%;
+    /* top: 92%; */
     right: 20px;
     outline: none !important;
     -webkit-border-radius: 50%;
@@ -95,12 +115,14 @@
 
 .project-description h4 {
     color: rgb(165, 170, 96);
+    color: rgb(233, 116, 48);
+    color: rgb(1, 2, 24);
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-#projects-container,
-#education-container {
+.projects-container,
+.education-container {
     display: flex;
 }
 
@@ -116,6 +138,8 @@
 .projects p:nth-of-type(1),
 .degrees p:nth-of-type(1) {
     color: rgb(102, 109, 8);
+    color: rgb(233, 116, 48);
+    color: rgb(1, 2, 24);
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -142,6 +166,7 @@
 
 #second a {
     color: rgb(102, 109, 8);
+    color: rgb(1, 2, 24);
 }
 
 #second hr,

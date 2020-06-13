@@ -5,14 +5,18 @@
 }
 
 .resume-left {
-    background-color: rgb(52, 60, 73);
+    background-color: rgb(25, 49, 94);
     color: rgb(187, 182, 182);
+    color: rgb(238, 237, 237);
     font-weight: 500;
     height: 100%;
 }
 
 .resume-left h3 {
     color: rgb(107, 167, 94);
+    color: rgb(179, 68, 87);
+    color: rgb(230, 117, 25);
+    color: rgb(221, 135, 23);
     font-size: 1.2rem;
     margin-top: 20px;
     padding: 10px 0;
@@ -28,6 +32,8 @@
 
 .personal a {
     color: rgb(150, 134, 64);
+    color: rgb(73, 146, 177);
+    color: rgb(11, 172, 247);
     text-decoration: none;
 }
 
@@ -70,9 +76,15 @@
 .fill-in {
     align-items: center;
     background: linear-gradient(to left, rgb(102, 109, 8), rgb(110, 94, 136));
+    background: linear-gradient(to left, rgb(7, 96, 138), rgb(144, 147, 155));
+    
     border-radius: 30px;
     box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
     color: rgb(187, 182, 182);
+    color: rgb(209, 226, 164);
+    color: rgb(24, 23, 23);
+    color: rgb(74, 150, 71);
+    color: rgb(221, 215, 215);
     display: flex;
     font-size: 0.8rem;
     height: 15px;
