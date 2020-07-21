@@ -20,6 +20,7 @@
 .link-item {
     background: rgba(212, 209, 210, 0.5);
     color: rgb(75, 64, 17);
+    outline: none !important;
     padding: 10px;
     text-transform: uppercase;
 }
@@ -28,11 +29,12 @@
 .link-item:focus {
     background: rgb(191, 227, 241);
     color: rgb(221, 135, 23);
-    font-size: 1.3rem;
+    color: rgb(230, 117, 25);
 }
 
 .nav-item > .active {
     border-bottom: 2px solid rgb(221, 135, 23);
+    border-bottom: 2px solid rgb(230, 117, 25);
 }
 
 #first {
@@ -69,7 +71,8 @@ h1 {
 #first a {
     color: rgb(102, 109, 8);
     color: rgb(233, 116, 48);
-    color: rgb(1, 2, 24);
+    color: rgb(230, 117, 25);
+    /* color: rgb(1, 2, 24); */
     font-style: italic;
     /* font-weight: 600; */
 }
@@ -78,7 +81,8 @@ h1 {
     background: rgba(212, 209, 210, 0.5);
     border: 1px solid rgb(73, 109, 155);
     border-radius: 50%;
-    color: rgb(75, 64, 17);
+    /* color: rgb(75, 64, 17); */
+    color: rgb(230, 117, 25);
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1rem;

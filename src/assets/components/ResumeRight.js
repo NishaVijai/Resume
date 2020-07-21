@@ -30,7 +30,7 @@ export default class ResumeRight extends Component {
 				</nav>
 
 				<div>
-					<div id="first">
+					<address id="first">
 						{/* <header>
 							<h1>front-end web developer</h1>
 						</header>
@@ -51,9 +51,9 @@ export default class ResumeRight extends Component {
 								nishasportfolio
 							</a>
 						</p>
-					</div>
+					</address>
 
-					<div id="second">
+					<article id="second">
 						<h3 className="h3-underline underline">experience</h3>
 						<div className="projects-container">
 							<div className="project-1 projects left-section">
@@ -241,9 +241,9 @@ export default class ResumeRight extends Component {
 								</p>
 							</div>
 						</div>
-					</div>
+					</article>
 
-					<div id="third">
+					<article id="third">
 						<h3 className="h3-underline underline">education</h3>
 						<div className="education-container">
 							<div className="education-1 degrees left-section">
@@ -352,7 +352,7 @@ export default class ResumeRight extends Component {
 								<p>Primary Schooling</p>
 							</div>
 						</div>
-					</div>
+					</article>
 					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}> Top </button>
 				</div>
 			</section>
