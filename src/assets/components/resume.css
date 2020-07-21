@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -12,9 +14,12 @@ html {
 }
 
 body {
-	font-family: 'Questrial' , 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-		'Droid Sans', 'Helvetica Neue', sans-serif;
-	-webkit-font-smoothing: antialiased;
+	/* font-family: 'Questrial' , 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	height: 100vh;
 	overflow-x: hidden;
