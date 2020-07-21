@@ -8,7 +8,7 @@ export default class ResumeLeft extends Component {
 				<div className="personal">
 					<h2>personal</h2>
 					<p>
-						self-taught front-end developer. Made few projects and obtained certificates from{' '}
+						Self-taught front-end developer. Made few projects and obtained certificates from{' '}
 						<a href="https://chingu.io/" target="_blank" rel="noopener  noreferrer">
 							CHINGU-voyage
 						</a>. Currently, working on 30DaysOfCode challenges. Additionally learning Python and Advanced
@@ -31,19 +31,19 @@ export default class ResumeLeft extends Component {
 						<div>
 							<p>css</p>							
 							<div className="side-line">
-								<div className="fill-in fill-70">70%</div>
+								<div className="fill-in fill-80">80%</div>
 							</div>					
 						</div>
 
 						<div>
-							<p>javascript</p>
+							<p>react</p>
 							<div className="side-line">
 								<div className="fill-in fill-60">60%</div>
 							</div>
 						</div>
 
 						<div>
-							<p>react</p>
+							<p>javascript</p>
 							<div className="side-line">
 								<div className="fill-in">50%</div>
 							</div>
@@ -70,7 +70,7 @@ export default class ResumeLeft extends Component {
 					<div className="lang">
 						<p>english</p>
 						<div className="side-line">
-							<div className="fill-in fill-70">70%</div>
+							<div className="fill-in fill-80">80%</div>
 						</div>
 
 						<p>danish</p>
