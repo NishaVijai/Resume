@@ -6,7 +6,7 @@ export default class ResumeLeft extends Component {
 		return (
 			<section className="resume-left">
 				<div className="personal">
-					<h3>personal</h3>
+					<h2>personal</h2>
 					<p>
 						self-taught front-end developer. Made few projects and obtained certificates from{' '}
 						<a href="https://chingu.io/" target="_blank" rel="noopener  noreferrer">
@@ -19,7 +19,7 @@ export default class ResumeLeft extends Component {
 				<hr />
 
 				<div className="front-end">
-					<h3>front-end</h3>
+					<h2>front-end</h2>
 					<div className="front-end-lang">
 						<div>
 							<p>html</p>							
@@ -54,7 +54,7 @@ export default class ResumeLeft extends Component {
 				<hr />
 
 				<div className="back-end">
-					<h3>back-end</h3>
+					<h2>back-end</h2>
 					<div className="back-end-lang">
 						<p>python</p>
 						<div className="side-line">
@@ -66,7 +66,7 @@ export default class ResumeLeft extends Component {
 				<hr />
 
 				<div className="languages">
-					<h3>languages</h3>
+					<h2>languages</h2>
 					<div className="lang">
 						<p>english</p>
 						<div className="side-line">
