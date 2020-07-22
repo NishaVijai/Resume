@@ -3,7 +3,7 @@ import Resume from './assets/components/Resume';
 
 function App() {
 	return (
-		<div className="resume-app">
+		<div>
 			<Resume />
 		</div>
 	);

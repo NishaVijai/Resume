@@ -15,9 +15,29 @@ export default class Resume extends Component {
 				<main>
 					<header>
 						<h1>front-end web developer</h1>
+						<hr id="h1-hr" />
+						<address id="first">
+							<p>
+								Mail: <a href="mailto:nishavijai@gmail.com">nishavijai@gmail.com</a>
+							</p>
+
+							<p>
+								Mobile: <a href="tel:+45-53265717">+45-53265717</a>
+							</p>
+
+							<p>
+								Website:{' '}
+								<a
+									href="https://nishasportfolio.netlify.com/"
+									target="_blank"
+									rel="noopener  noreferrer"
+								>
+									nishasportfolio
+								</a>
+							</p>
+						</address>
 					</header>
 
-					<hr id="h1-hr" />
 					<ResumeRight />
 				</main>
 			</div>

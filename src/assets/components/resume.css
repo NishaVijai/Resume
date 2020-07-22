@@ -17,19 +17,52 @@ body {
 	/* font-family: 'Questrial' , 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
         'Droid Sans', 'Helvetica Neue', sans-serif; */
     /* font-family: 'Roboto Mono', monospace; */
-
     font-family: 'Open Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	font-size: 1.2rem;
 	height: 100vh;
 	overflow-x: hidden;
 	width: 100vw;
 }
 
-/* resume-container */
+main {
+	padding: 20px;
+}
+
+header {
+	text-align: center;
+}
+
+h1 {
+    color: rgb(73, 109, 155);
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
 .resume-container {
     display: grid;
-    font-size: 1rem;
-    /* grid-template-columns: 22% auto; */
-    grid-template-columns: repeat(auto-fill, minmax(22%, auto));
+    grid-template-columns: 22% auto;
+	/* grid-template-columns: repeat(auto-fill, minmax(20%, auto)); */	
+}
+
+#h1-hr {
+    /* border-bottom: 2px solid rgb(73, 109, 155); */
+    border-bottom: 2px solid rgb(221, 135, 23);
+    margin: auto;
+    width: 30%;
+}
+
+#first a {
+    /* color: rgb(102, 109, 8);
+    color: rgb(233, 116, 48); */
+    color: rgb(230, 117, 25);
+    /* color: rgb(1, 2, 24); */
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#first p {
+	padding-top: 5px;
 }
