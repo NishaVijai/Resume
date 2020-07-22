@@ -70,17 +70,107 @@ a:focus {
 
 @media only screen and (max-width: 500px) {
 	* {
-		font-size: 1rem;
+		font-size: 0.8rem;
     }
     
     .resume-container {
         display: grid;
         grid-template-columns: 35% auto;
 	}
+
+	main {
+		padding-top: 0.9375rem;
+	}
+
+	header {
+		text-align: left;
+	}
+
+	h1 {
+		font-size: 1.2rem;
+	}
+
+	#h1-hr {
+		width: 50%;
+	}
+
+	#first {
+		padding-top: 0.625rem;
+	}
+
+	#first a {
+		font-size: 0.9rem;
+	}
+
+	/* resumeLeft */
+
+	.resume-left h2{
+		font-size: 1rem;
+		margin-top: 0;
+	}
+	
+	.resume-left p,
+	.personal a  {
+		font-size: 0.9rem;
+	}
+
+	.front-end-lang p,
+	.back-end-lang p,
+	.lang p {
+		font-size: 0.8rem;
+	}
+
+	.side-line,
+	.fill-in {
+		height: 0.625rem;
+	}
+
+	.fill-in {
+		font-size: 0.7rem;
+	}
+
+	/* resumeRight */
+
+	.nav-item {
+		position: fixed;
+		right: 1.25rem;
+		top: 3.4375rem;
+	}
+
+	h3,
+	.h2-experience {
+		font-size: 1rem;
+	}
+
+	h4 {
+		font-size: 0.8rem;
+	}
+
+	.move-up-hr {
+		display: none;
+	}
+
+	.projects p:nth-of-type(1),
+	.degrees p:nth-of-type(1) {
+		font-size: 0.8rem;
+	}
+	
+	.projects p:nth-of-type(2) {
+		font-size: 0.8rem;
+	}
+	
+	.degrees p:nth-of-type(2) {
+		font-size: 0.8rem;
+	}
+	
+	.projects p:nth-of-type(3) {
+		font-size: 0.8rem;
+	}
 	
 	.projects-container,
 	.education-container {
 		display: flex;
 		flex-direction: column;
+		padding: 0.3125rem;
 	}
 }
