@@ -24,6 +24,7 @@
     background: rgb(191, 227, 241);
     /* color: rgb(221, 135, 23); */
     color: rgb(230, 117, 25);
+    cursor: pointer;
     font-weight: bold;
 }
 
@@ -70,6 +71,21 @@ h3 {
     text-transform: uppercase;
 }
 
+#second a {
+    /* color: rgb(102, 109, 8);
+    color: rgb(1, 2, 24);
+    color: rgb(221, 135, 23);
+    color: rgb(230, 117, 25);
+    color: #A55584; */
+    color: rgb(230, 117, 25);
+    font-weight: bold;
+}
+
+#second a:hover,
+#second a:focus {
+    text-decoration: underline;
+}
+
 .left-section {
     /* float: left; */
     /* padding-top: 10px; */
@@ -82,13 +98,13 @@ h3 {
     /* width: 75%; */
 }
 
-.project-description h4 {
+/* .project-description h4 {
     color: rgb(165, 170, 96);
     color: rgb(233, 116, 48);
     color: rgb(1, 2, 24);
     font-size: 1rem;
     text-transform: uppercase;
-}
+} */
 
 .projects-container,
 .education-container {
@@ -106,9 +122,10 @@ h3 {
 
 .projects p:nth-of-type(1),
 .degrees p:nth-of-type(1) {
-    color: rgb(102, 109, 8);
+    /* color: rgb(102, 109, 8);
     color: rgb(233, 116, 48);
-    color: rgb(1, 2, 24);
+    color: rgb(1, 2, 24); */
+    color: #A55584;
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -131,11 +148,6 @@ h3 {
 
 .project-first-p {
     /* padding-top: 20px; */
-}
-
-#second a {
-    color: rgb(102, 109, 8);
-    color: rgb(1, 2, 24);
 }
 
 #second hr,

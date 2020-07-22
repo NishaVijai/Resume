@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ResumeRightSecond from './ResumeRightSecond';
+import ResumeRightThird from './ResumeRightThird';
 
 import './resumeRight.css';
 
@@ -54,6 +55,8 @@ export default class ResumeRight extends Component {
 				<div className="right-side-container">
 
 					<ResumeRightSecond />
+
+					<ResumeRightThird />
 
 					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
 						{' '}

@@ -4,7 +4,7 @@ export default class ResumeRightSecond extends Component {
 	render() {
 		return (
 			<div>
-				<h3 className="h3-underline underline">experience</h3>
+				<h3>experience</h3>
                 
 				<article id="second">
 					<div className="projects-container">
