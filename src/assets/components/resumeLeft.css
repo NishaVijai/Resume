@@ -17,7 +17,6 @@ h2 {
 
 .resume-left h2 {
     color: rgb(230, 117, 25);
-    /* color: rgb(221, 135, 23); */
     font-size: 1.2rem;
     margin-top: 20px;
     padding: 10px 0;
@@ -69,10 +68,10 @@ h2 {
 
 .fill-in {
     align-items: center;
-    background: linear-gradient(to left, rgb(7, 96, 138), rgb(144, 147, 155));
+    background: rgb(7, 96, 138);
     border-radius: 30px;
     box-shadow: 0 3px 3px -5px F2709C, 0px 2px 5px F2709C;
-    color: rgb(221, 215, 215);
+    color: rgb(248, 245, 245);
     display: flex;
     font-size: 0.8rem;
     height: 15px;
@@ -80,6 +79,10 @@ h2 {
     position: absolute;
     transition: 3s ease;
     width: 50%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .fill-90 {

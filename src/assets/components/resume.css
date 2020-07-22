@@ -40,6 +40,11 @@ h1 {
     text-transform: uppercase;
 }
 
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
 .resume-container {
     display: grid;
     grid-template-columns: 22% auto;
@@ -47,17 +52,13 @@ h1 {
 }
 
 #h1-hr {
-    /* border-bottom: 2px solid rgb(73, 109, 155); */
     border-bottom: 2px solid rgb(221, 135, 23);
     margin: auto;
     width: 30%;
 }
 
 #first a {
-    /* color: rgb(102, 109, 8);
-    color: rgb(233, 116, 48); */
-    color: rgb(230, 117, 25);
-    /* color: rgb(1, 2, 24); */
+    color: rgb(80, 25, 230);
     font-size: 1.1rem;
     font-style: italic;
     font-weight: bold;

@@ -3,14 +3,11 @@
 }
 
 .nav-item {
-    background: rgba(212, 209, 210, 0.5);
-    background: rgba(211, 237, 247, 0.5);
-    /* border: 1px solid red; */
+    background: rgba(235, 233, 234, 0.5);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
-    /* padding: 5px; */
     position: fixed;
     right: 20px;
     top: 20px;   
@@ -21,7 +18,7 @@
 }
 
 .link-item {
-    color: rgb(75, 64, 17);
+    color: rgb(12, 5, 71);
     outline: none !important;
     padding: 10px;
     text-transform: uppercase;
@@ -29,21 +26,16 @@
 
 .link-item:hover,
 .link-item:focus {
-    /* background: rgb(191, 227, 241); */
-    /* background: rgb(201, 227, 238); */
     background: rgba(201, 227, 238, 0.8);
     border-radius: 20px;
-    /* color: rgb(221, 135, 23); */
-    color: rgb(230, 117, 25);
     color: rgb(143, 17, 80);
-    /* color: rgb(25, 49, 94);
-    color: rgba(25, 49, 94, 0.5); */
     cursor: pointer;
     font-weight: bolder;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    text-decoration: none;
 }
 
 .nav-item > .active {
@@ -53,7 +45,8 @@
 
 /* ------------------------------------- */
 
-h3 {
+h3,
+.h2-experience {
     font-size: 1.3rem;
     text-transform: uppercase;
 }
@@ -69,18 +62,9 @@ h4 {
 }
 
 #second a {
-    /* color: rgb(102, 109, 8);
-    color: rgb(1, 2, 24);
-    color: rgb(221, 135, 23);
     color: rgb(230, 117, 25);
-    color: #A55584; */
-    color: rgb(230, 117, 25);
+    color: rgb(80, 25, 230);
     font-weight: bold;
-}
-
-#second a:hover,
-#second a:focus {
-    text-decoration: underline;
 }
 
 .projects-container,
@@ -115,9 +99,6 @@ h4 {
 
 .projects p:nth-of-type(1),
 .degrees p:nth-of-type(1) {
-    /* color: rgb(102, 109, 8);
-    color: rgb(233, 116, 48);
-    color: rgb(1, 2, 24); */
     color: #A55584;
     font-size: 0.9rem;
     font-weight: bold;
@@ -145,6 +126,7 @@ h4 {
     border: 2px double rgb(83, 118, 163);
     border-radius: 50%;
     color: rgb(230, 117, 25);
+    color: rgb(80, 25, 230);
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
@@ -162,8 +144,7 @@ h4 {
 
 .to-top-button:hover,
 .to-top-button:focus {
-    /* background: rgb(191, 227, 241); */
     background: rgb(201, 227, 238);
-    color: rgb(221, 135, 23);
+    color: rgb(136, 82, 11);
     cursor: pointer;
 }
