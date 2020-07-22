@@ -4,42 +4,42 @@
 
 .nav-item {
     background: rgba(235, 233, 234, 0.5);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
     position: fixed;
-    right: 20px;
-    top: 20px;   
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    right: 1.25rem;
+    top: 1.25rem;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
 }
 
 .link-item {
     color: rgb(12, 5, 71);
     outline: none !important;
-    padding: 10px;
+    padding: 0.625rem;
     text-transform: uppercase;
 }
 
 .link-item:hover,
 .link-item:focus {
     background: rgba(201, 227, 238, 0.8);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     color: rgb(143, 17, 80);
     cursor: pointer;
     font-weight: bolder;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -webkit-border-radius: 1.25rem;
+    -moz-border-radius: 1.25rem;
+    -ms-border-radius: 1.25rem;
+    -o-border-radius: 1.25rem;
     text-decoration: none;
 }
 
 .nav-item > .active {
-    border-bottom: 2px solid rgb(230, 117, 25);
+    border-bottom: 0.125rem solid rgb(230, 117, 25);
     font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ h4 {
 
 #second,
 #third {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 #second a {
@@ -71,30 +71,30 @@ h4 {
 .education-container {
     display: grid;
     grid-template-columns: 22% auto;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .move-up-hr {
-    margin-top: -30px;
+    margin-top: -1.875rem;
 }
 
 .move-top-padding {
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .left-section p {
-    padding-top: 5px;
+    padding-top: 0.3125rem;
 }
 
 .left-section hr {
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 
 .project-description,
 .education-description {
     font-size: 1.1rem;
-    margin: 0px 10px;
-    padding: 5px;
+    margin: 0 0.625rem;
+    padding: 0.3125rem;
 }
 
 .projects p:nth-of-type(1),
@@ -123,18 +123,18 @@ h4 {
 /* to top button */
 .to-top-button {
     background: rgba(212, 209, 210, 0.5);
-    border: 2px double rgb(83, 118, 163);
+    border: 0.125rem double rgb(83, 118, 163);
     border-radius: 50%;
     color: rgb(230, 117, 25);
     color: rgb(80, 25, 230);
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.1rem;
-    padding: 5px;
+    padding: 0.3125rem;
     position: fixed;
     bottom: 5%;
     text-transform: uppercase;
-    right: 20px;
+    right: 1.25rem;
     outline: none !important;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
