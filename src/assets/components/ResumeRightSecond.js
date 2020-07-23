@@ -10,7 +10,6 @@ export default class ResumeRightSecond extends Component {
 						<p>October 2019 - November 2019</p>
 						<p>front-end web developer</p>
 						<p>chingu-voyage 12</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-1-description project-description">
@@ -38,7 +37,6 @@ export default class ResumeRightSecond extends Component {
 						<p>September 2019 - October 2019</p>
 						<p>front-end web developer</p>
 						<p>chingu-voyage 11</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-2-description project-description">
@@ -68,7 +66,6 @@ export default class ResumeRightSecond extends Component {
 						<p>June 2019 - July 2019</p>
 						<p>front-end web developer</p>
 						<p>chingu-voyage 09 - group project</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-3-description project-description">
@@ -103,7 +100,6 @@ export default class ResumeRightSecond extends Component {
 						<p>
 							chingu-voyage 09 -<br /> prework-solo-project
 						</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-4-description project-description">
@@ -135,7 +131,6 @@ export default class ResumeRightSecond extends Component {
 						<p>March 2019 - April 2019</p>
 						<p>front-end web developer</p>
 						<p>chingu-voyage 08 - group project</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-5-description project-description">
@@ -169,7 +164,6 @@ export default class ResumeRightSecond extends Component {
 						<p>
 							chingu-voyage 08 - <br />prework-solo-project
 						</p>
-						{/* <hr /> */}
 					</div>
 
 					<div className="project-6-description project-description">
