@@ -1,9 +1,9 @@
 #resume-right-container {
-    color: rgb(73, 109, 155);
+    color: var(--primary);
 }
 
 .nav-item {
-    background: rgba(235, 233, 234, 0.5);
+    background: var(--nav-bg);
     border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@
 }
 
 .link-item {
-    color: rgb(12, 5, 71);
+    color: var(--nav-color);
     outline: none !important;
     padding: 0.625rem;
     text-transform: uppercase;
@@ -26,9 +26,9 @@
 
 .link-item:hover,
 .link-item:focus {
-    background: rgba(201, 227, 238, 0.8);
+    background: var(--nav-link-hover-bg);
     border-radius: 1.25rem;
-    color: rgb(143, 17, 80);
+    color: var(--nav-link-hover-color);
     cursor: pointer;
     font-weight: bolder;
     -webkit-border-radius: 1.25rem;
@@ -39,7 +39,7 @@
 }
 
 .nav-item > .active {
-    border-bottom: 0.125rem solid rgb(230, 117, 25);
+    border-bottom: 0.125rem solid var(--left-h2);
     font-weight: bold;
 }
 
@@ -58,8 +58,7 @@ h3,
 }
 
 #second a {
-    /* color: rgb(230, 117, 25); */
-    color: rgb(80, 25, 230);
+    color: var(--link-a);
     font-weight: bold;
 }
 
@@ -95,7 +94,7 @@ h3,
 
 .projects p:nth-of-type(1),
 .degrees p:nth-of-type(1) {
-    color: #A55584;
+    color: var(--proj-p-color);
     font-size: 0.9rem;
     font-weight: bold;
 }
@@ -122,10 +121,10 @@ h3,
 
 /* to top button */
 .to-top-button {
-    background: rgba(212, 209, 210, 0.5);
+    background: var(--to-top-bg);
     border: none;
     border-radius: 50%;
-    color: rgb(12, 5, 71);
+    color: var(--nav-color);
     font-size: 1rem;
     letter-spacing: 0.1rem;
     padding: 0.625rem;
@@ -142,9 +141,9 @@ h3,
 
 .to-top-button:hover,
 .to-top-button:focus {
-    background: rgba(201, 227, 238, 0.8);
-    border: 0.0625rem solid rgb(83, 118, 163);
-    color: rgb(143, 17, 80);
+    background: var(--nav-link-hover-bg);
+    border: 0.0625rem solid var(--to-top-border);
+    color: var(--nav-link-hover-color);
     cursor: pointer;
     font-weight: bolder;
 }

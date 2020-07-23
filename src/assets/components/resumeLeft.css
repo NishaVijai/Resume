@@ -8,15 +8,15 @@ h2 {
 
 /* resume-left */
 .resume-left {
-    background-color: rgb(25, 49, 94);
-    color: rgb(238, 237, 237);
+    background-color: var(--left-bg);
+    color: var(--left-color);
     font-weight: 500;
     height: 100%;
     padding: 1.25rem;
 }
 
 .resume-left h2 {
-    color: rgb(230, 117, 25);
+    color: var(--left-h2);
     font-size: 1.2rem;
     margin-top: 1.25rem;
     padding: 0.625rem 0;
@@ -26,13 +26,8 @@ h2 {
     font-size: 1.1rem;
 }
 
-.personal a {
-    color: rgb(11, 172, 247);
-    text-decoration: none;
-}
-
 .resume-left hr {
-    border: 0.0625rem solid rgb(102, 109, 8);
+    border: 0.0625rem solid var(--left-hr);
     border-radius: 0.625rem;
     margin-top: 1.875rem;
     -webkit-border-radius: 0.625rem;
