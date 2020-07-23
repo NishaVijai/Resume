@@ -66,7 +66,7 @@ h3,
 .projects-container,
 .education-container {
     display: grid;
-    grid-template-columns: 22% auto;
+    grid-template-columns: 25% auto;
     padding: 0.625rem;
 }
 

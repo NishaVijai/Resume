@@ -65,7 +65,7 @@ export default class ResumeRightSecond extends Component {
 					<div className="project-3 projects left-section">
 						<p>June 2019 - July 2019</p>
 						<p>front-end web developer</p>
-						<p>chingu-voyage 09 - group project</p>
+						<p>chingu-voyage 09 -<br /> group project</p>
 					</div>
 
 					<div className="project-3-description project-description">
@@ -130,7 +130,7 @@ export default class ResumeRightSecond extends Component {
 					<div className="project-5 projects left-section">
 						<p>March 2019 - April 2019</p>
 						<p>front-end web developer</p>
-						<p>chingu-voyage 08 - group project</p>
+						<p>chingu-voyage 08 -<br /> group project</p>
 					</div>
 
 					<div className="project-5-description project-description">

@@ -22,7 +22,7 @@ export default class ResumeRightThird extends Component {
 						<p>August 2016 - January 2017</p>
 
 						<p>
-							Pædagog-<br />uddannelsen UCC
+							Pædagoguddannelsen UCC
 						</p>
 					</div>
 
@@ -60,7 +60,7 @@ export default class ResumeRightThird extends Component {
 						<p>2000 - 2003</p>
 
 						<p>
-							BCA - Jamal Mohamed College - <br />
+							BCA - Jamal Mohamed College -
 							Bharathidasan University - India
 						</p>
 					</div>
@@ -75,7 +75,7 @@ export default class ResumeRightThird extends Component {
 						<p>1998 - 2000</p>
 
 						<p>
-							St.Joseph's Girl's Higher Secondary <br />School - India
+							St.Joseph's Girl's Higher Secondary School - India
 						</p>
 					</div>
 
@@ -89,7 +89,7 @@ export default class ResumeRightThird extends Component {
 						<p>1993 - 1998</p>
 
 						<p>
-							St.Joseph's Girl's Higher Secondary <br />School - India
+							St.Joseph's Girl's Higher Secondary School - India
 						</p>
 					</div>
 
