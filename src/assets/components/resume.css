@@ -120,15 +120,6 @@ a:focus {
 		font-size: 0.8rem;
 	}
 
-	.side-line,
-	.fill-in {
-		height: 0.625rem;
-	}
-
-	.fill-in {
-		font-size: 0.7rem;
-	}
-
 	/* resumeRight */
 
 	.nav-item {
@@ -140,10 +131,6 @@ a:focus {
 	h3,
 	.h2-experience {
 		font-size: 1rem;
-	}
-
-	h4 {
-		font-size: 0.8rem;
 	}
 
 	.move-up-hr {
