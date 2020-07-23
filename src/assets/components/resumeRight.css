@@ -63,6 +63,10 @@ h3,
     font-weight: bold;
 }
 
+.hr-mobile-view {
+    display: none;
+}
+
 .projects-container,
 .education-container {
     display: grid;

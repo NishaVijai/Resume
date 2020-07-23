@@ -54,8 +54,10 @@ export default class ResumeRight extends Component {
 
 				<div className="right-side-container">
 
+					<hr className="hr-mobile-view" />
 					<ResumeRightSecond />
 
+					<hr className="hr-mobile-view" />
 					<ResumeRightThird />
 
 					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
