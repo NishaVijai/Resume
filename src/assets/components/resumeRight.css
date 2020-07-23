@@ -4,42 +4,42 @@
 
 .nav-item {
     background: var(--nav-bg);
-    border-radius: 1.25rem;
+    border-radius: var(--padding-20-px);
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
     position: fixed;
-    right: 1.25rem;
-    top: 1.25rem;
-    -webkit-border-radius: 1.25rem;
-    -moz-border-radius: 1.25rem;
-    -ms-border-radius: 1.25rem;
-    -o-border-radius: 1.25rem;
+    right: var(--padding-20-px);
+    top: var(--padding-20-px);
+    -webkit-border-radius: var(--padding-20-px);
+    -moz-border-radius: var(--padding-20-px);
+    -ms-border-radius: var(--padding-20-px);
+    -o-border-radius: var(--padding-20-px);
 }
 
 .link-item {
     color: var(--nav-color);
     outline: none !important;
-    padding: 0.625rem;
+    padding: var(--padding-10-px);
     text-transform: uppercase;
 }
 
 .link-item:hover,
 .link-item:focus {
     background: var(--nav-link-hover-bg);
-    border-radius: 1.25rem;
+    border-radius: var(--padding-20-px);
     color: var(--nav-link-hover-color);
     cursor: pointer;
     font-weight: bolder;
-    -webkit-border-radius: 1.25rem;
-    -moz-border-radius: 1.25rem;
-    -ms-border-radius: 1.25rem;
-    -o-border-radius: 1.25rem;
+    -webkit-border-radius: var(--padding-20-px);
+    -moz-border-radius: var(--padding-20-px);
+    -ms-border-radius: var(--padding-20-px);
+    -o-border-radius: var(--padding-20-px);
     text-decoration: none;
 }
 
 .nav-item > .active {
-    border-bottom: 0.125rem solid var(--left-h2);
+    border-bottom: var(--padding-2-px) solid var(--left-h2);
     font-weight: bold;
 }
 
@@ -53,8 +53,8 @@ h3,
 
 #second,
 #third {
-    margin: 0.625rem;
-    padding-top: 0.9375rem;
+    margin: var(--padding-10-px);
+    padding-top: var(--padding-15-px);
 }
 
 #second a {
@@ -70,7 +70,7 @@ h3,
 .education-container {
     display: grid;
     grid-template-columns: 25% auto;
-    padding: 0.625rem;
+    padding: var(--padding-10-px);
 }
 
 .move-up-hr {
@@ -78,18 +78,18 @@ h3,
 }
 
 .move-top-padding {
-    padding-top: 1.25rem;
+    padding-top: var(--padding-20-px);
 }
 
 .left-section p {
-    padding-top: 0.3125rem;
+    padding-top: var(--padding-5-px);
 }
 
 .project-description,
 .education-description {
     font-size: 1.1rem;
-    margin: 0 0.625rem;
-    padding: 0.3125rem;
+    margin: 0 var(--padding-10-px);
+    padding: var(--padding-5-px);
 }
 
 .projects p:nth-of-type(1),
@@ -116,7 +116,7 @@ h3,
 }
 
 .top-padding {
-    padding-top: 1.5625rem;
+    padding-top: var(--padding-25-px);
 }
 
 /* to top button */
@@ -127,10 +127,10 @@ h3,
     color: var(--nav-color);
     font-size: 1rem;
     letter-spacing: 0.1rem;
-    padding: 0.625rem;
+    padding: var(--padding-10-px);
     position: fixed;
     bottom: 5%;
-    right: 1.25rem;
+    right: var(--padding-20-px);
     text-transform: uppercase;
     outline: none !important;
     -webkit-border-radius: 50%;
@@ -142,7 +142,7 @@ h3,
 .to-top-button:hover,
 .to-top-button:focus {
     background: var(--nav-link-hover-bg);
-    border: 0.0625rem solid var(--to-top-border);
+    border: var(--padding-1-px) solid var(--to-top-border);
     color: var(--nav-link-hover-color);
     cursor: pointer;
     font-weight: bolder;

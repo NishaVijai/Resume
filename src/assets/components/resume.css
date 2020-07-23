@@ -18,6 +18,15 @@
 	--proj-p-color: #A55584;
 	--to-top-bg: rgba(212, 209, 210, 0.5);
 	--to-top-border: rgb(83, 118, 163);
+	--padding-1-px: 0.0625rem;
+	--padding-2-px: 0.125rem;
+	--padding-5-px: 0.3125rem;
+	--padding-10-px: 0.625rem;
+	--padding-15-px: 0.9375rem;
+	--padding-20-px: 1.25rem;
+	--padding-25-px: 1.5625rem;
+	--padding-30-px: 1.875rem;
+	--padding-55-px: 3.4375rem;
 }
 
 * {
@@ -45,7 +54,7 @@ body {
 }
 
 main {
-	padding: 0.625rem;
+	padding: var(--padding-10-px);
 }
 
 header {
@@ -70,7 +79,7 @@ a:focus {
 }
 
 #h1-hr {
-	border-bottom: 0.125rem solid var(--secondary);
+	border-bottom: var(--padding-2-px) solid var(--secondary);
 	margin: auto;
 	width: 30%;
 }
@@ -83,7 +92,7 @@ a:focus {
 }
 
 #first p {
-	padding-top: 0.3125rem;
+	padding-top: var(--padding-5-px);
 }
 
 @media only screen and (max-width: 500px) {
@@ -97,7 +106,7 @@ a:focus {
 	}
 
 	main {
-		padding-top: 0.9375rem;
+		padding-top: var(--padding-15-px);
 	}
 
 	header {
@@ -113,7 +122,7 @@ a:focus {
 	}
 
 	#first {
-		padding-top: 0.625rem;
+		padding-top: var(--padding-10-px);
 	}
 
 	#first a {
@@ -142,13 +151,13 @@ a:focus {
 
 	.nav-item {
 		position: fixed;
-		right: 1.25rem;
-		top: 3.4375rem;
+		right: var(--padding-20-px);
+		top: var(--padding-55-px);
 	}
 
 	.hr-mobile-view {
 		display: block;
-		margin-top: 0.625rem;
+		margin-top: var(--padding-10-px);
 	}
 
 	#second,
@@ -166,18 +175,9 @@ a:focus {
 	}
 
 	.projects p:nth-of-type(1),
-	.degrees p:nth-of-type(1) {
-		font-size: 0.8rem;
-	}
-	
-	.projects p:nth-of-type(2) {
-		font-size: 0.8rem;
-	}
-	
-	.degrees p:nth-of-type(2) {
-		font-size: 0.8rem;
-	}
-	
+	.degrees p:nth-of-type(1),
+	.projects p:nth-of-type(2),
+	.degrees p:nth-of-type(2),
 	.projects p:nth-of-type(3) {
 		font-size: 0.8rem;
 	}
@@ -186,6 +186,6 @@ a:focus {
 	.education-container {
 		display: flex;
 		flex-direction: column;
-		padding: 0.3125rem;
+		padding: var(--padding-5-px);
 	}
 }
