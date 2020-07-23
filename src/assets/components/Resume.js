@@ -25,7 +25,7 @@ export default class Resume extends Component {
 								Mobile: <a href="tel:+45-53265717">+45-53265717</a>
 							</p>
 
-							<p>
+							{/* <p>
 								Website:{' '}
 								<a
 									href="https://nishasportfolio.netlify.com/"
@@ -34,7 +34,7 @@ export default class Resume extends Component {
 								>
 									nishasportfolio
 								</a>
-							</p>
+							</p> */}
 						</address>
 					</header>
 

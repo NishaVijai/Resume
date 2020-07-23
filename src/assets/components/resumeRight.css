@@ -63,7 +63,7 @@ h4 {
 }
 
 #second a {
-    color: rgb(230, 117, 25);
+    /* color: rgb(230, 117, 25); */
     color: rgb(80, 25, 230);
     font-weight: bold;
 }
@@ -121,21 +121,23 @@ h4 {
     text-transform: uppercase;
 }
 
+.top-padding {
+    padding-top: 1.5625rem;
+}
+
 /* to top button */
 .to-top-button {
     background: rgba(212, 209, 210, 0.5);
-    border: 0.125rem double rgb(83, 118, 163);
+    border: none;
     border-radius: 50%;
-    color: rgb(230, 117, 25);
-    color: rgb(80, 25, 230);
+    color: rgb(12, 5, 71);
     font-size: 1rem;
-    font-weight: bold;
     letter-spacing: 0.1rem;
-    padding: 0.3125rem;
+    padding: 0.625rem;
     position: fixed;
     bottom: 5%;
-    text-transform: uppercase;
     right: 1.25rem;
+    text-transform: uppercase;
     outline: none !important;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -145,7 +147,9 @@ h4 {
 
 .to-top-button:hover,
 .to-top-button:focus {
-    background: rgb(201, 227, 238);
-    color: rgb(136, 82, 11);
+    background: rgba(201, 227, 238, 0.8);
+    border: 0.0625rem solid rgb(83, 118, 163);
+    color: rgb(143, 17, 80);
     cursor: pointer;
+    font-weight: bolder;
 }

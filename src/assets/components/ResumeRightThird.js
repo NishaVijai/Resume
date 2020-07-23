@@ -13,8 +13,8 @@ export default class ResumeRightThird extends Component {
 
 					<div className="education-1-description education-description">
 						<hr className="move-up-hr" />
-						<h4 className="move-top-padding">description</h4>
-						<p>First semester at ITU - M.Sc. programme Software Development, Advanced Computing</p>
+						{/* <h4 className="move-top-padding">description</h4> */}
+						<p className="top-padding">First semester at ITU - M.Sc. programme Software Development, Advanced Computing</p>
 					</div>
 				</div>
 
@@ -28,7 +28,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-2-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>First semester at Pædagoguddannelsen UCC- Hillerød</p>
 					</div>
 				</div>
@@ -41,7 +41,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-3-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Forberedelseskursus for indvandrere og flygtninge på UCC- Skovlunde</p>
 					</div>
 				</div>
@@ -54,7 +54,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-4-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Master of Computer Applications</p>
 					</div>
 				</div>
@@ -70,7 +70,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-5-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Bachelor of Computer Applications</p>
 					</div>
 				</div>
@@ -85,7 +85,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-6-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Higher Secondary Schooling</p>
 					</div>
 				</div>
@@ -100,7 +100,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-7-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Secondary Schooling</p>
 					</div>
 				</div>
@@ -113,7 +113,7 @@ export default class ResumeRightThird extends Component {
 					</div>
 
 					<div className="education-8-description education-description">
-						<h4>description</h4>
+						{/* <h4>description</h4> */}
 						<p>Primary Schooling</p>
 					</div>
 				</div>
