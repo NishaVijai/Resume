@@ -1,20 +1,59 @@
 import React, { Component } from 'react';
+import LeftSection from './LeftSection';
+import ProjectDescription from './ProjectDescription';
+import leftData from './leftData'
+import ProjectsContainer from './ProjectsContainer';
 
 export default class ResumeRightSecond extends Component {
 	render() {
+		// const leftData = {
+			
+		// 		date: "October 2019 - November 2019", 
+		// 		title: "front-end web developer", 
+		// 		project: "chingu-voyage 12",
+		// 		hobby: ["one", "two"]
+		// };
+
+		const leftSectionExperience = leftData.map((data) => <LeftSection date={data.date} title={data.title} project={data.project} /> );
+
+		// const leftSectionExp = leftData.map((data) => 
+		// <ProjectsContainer date={data.date} title={data.title} project={data.project} /> );
+
+		// const descri = leftData.map((desc) => <ProjectDescription description={desc.description} /> );
+
 		return (
 			<article id="second">
 				<h2 className="h2-experience">experience</h2>
 				<div className="projects-container">
-					<div className="project-1 projects left-section">
+					{/* <div className="project-1 projects left-section">
 						<p>October 2019 - November 2019</p>
 						<p>front-end web developer</p>
 						<p>chingu-voyage 12</p>
-					</div>
+					</div> */}
+					{/* <LeftSection leftData={leftData} /> */}
+					{/* {leftSectionExperience} */}
+
+					{/* {leftSectionExp} */}
+					{/* {descri} */}
+
+					<ProjectDescription />
 
 					<div className="project-1-description project-description">
 						<hr className="move-up-hr" />
-						<p className="move-top-padding">
+						{/* <ul className="move-top-padding">
+								<li>Built a cloned vaersgo website <a
+								href="https://github.com/chingu-voyages/v12-solo-NishaVijai"
+								target="_blank"
+								rel="noopener  noreferrer"
+							>
+								V12-Solo-project
+							</a> using HTML,CSS and React
+</li>
+								<li>Hosted vaersgo <a href=" https://vaersgo.netlify.com/" target="_blank" rel="noopener  noreferrer">
+								Cloned-Værsgo
+							</a> in Netlify </li>
+							</ul> */}
+						{/* <p className="move-top-padding">
 							Built a cloned Vaersgo website as my second solo project -{' '}
 							<a href=" https://vaersgo.netlify.com/" target="_blank" rel="noopener  noreferrer">
 								Cloned-Værsgo
@@ -28,7 +67,7 @@ export default class ResumeRightSecond extends Component {
 							>
 								V12-Solo-project
 							</a>{' '}
-						</p>
+						</p> */}
 					</div>
 				</div>
 

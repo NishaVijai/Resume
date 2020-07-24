@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import langData from './langData';
+
 import './resumeLeft.css';
+import ResumeLeftLang from './ResumeLeftLang';
 
 export default class ResumeLeft extends Component {
 	render() {
+		const languageComponent = langData.map((data) => <ResumeLeftLang langTitle = {data.langTitle} languages={data.languages} />)
 		return (
 			<section className="resume-left">
 				<div className="personal">
@@ -12,7 +16,8 @@ export default class ResumeLeft extends Component {
 
 				<hr />
 
-				<div className="front-end">
+				{languageComponent}
+				{/* <div className="front-end">
 					<h2>front-end</h2>
 					<div className="front-end-lang">
 						<div>
@@ -31,9 +36,9 @@ export default class ResumeLeft extends Component {
 							<p>javascript</p>
 						</div>
 					</div>
-				</div>
+				</div> */}
 
-				<hr />
+				{/* <hr />
 
 				<div className="back-end">
 					<h2>back-end</h2>
@@ -59,7 +64,7 @@ export default class ResumeLeft extends Component {
 					</div>
 				</div>
 
-				<hr />
+				<hr /> */}
 			</section>
 		);
 	}

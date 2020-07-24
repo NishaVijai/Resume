@@ -37,7 +37,7 @@ h2 {
 }
 
 /* resume-left languages */
-.front-end,
+/* .front-end,
 .back-end,
 .languages,
 .front-end-lang,
@@ -45,11 +45,27 @@ h2 {
 .lang {
     display: flex;
     flex-direction: column;
+} */
+
+.lang-title {
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
-.front-end-lang p,
+/* .front-end-lang p,
 .back-end-lang p,
 .lang p {
+    font-size: 0.9rem;
+    padding: var(--padding-5-px);
+    text-transform: uppercase;
+} */
+
+.languages {
+    display: flex;
+    flex-direction: column;
+}
+
+.languages p {
     font-size: 0.9rem;
     padding: var(--padding-5-px);
     text-transform: uppercase;

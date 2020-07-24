@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
+import EducationContainer from './EducationContainer';
+import educationData from './educationData';
 
 export default class ResumeRightThird extends Component {
 	render() {
+		const educationComponent = educationData.map((data) => <EducationContainer date={data.date} name={data.name} education={data.education} /> )
 		return (
 			<article id="third">
 				<h3>education</h3>
-				<div className="education-container">
+				<hr className="move-hr" />
+				
+				{/* <div className="hr-container">
+				<hr  />
+				</div> */}
+				{educationComponent}
+				
+				{/* <div className="education-container">
 					<div className="education-1 degrees left-section">
 						<p>August 2017 - January 2018</p>
 						<p>M.Sc. Programme</p>
@@ -108,7 +118,7 @@ export default class ResumeRightThird extends Component {
 					<div className="education-8-description education-description">
 						<p>Primary Schooling</p>
 					</div>
-				</div>
+				</div> */}
 			</article>
 		);
 	}

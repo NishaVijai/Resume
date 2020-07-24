@@ -66,23 +66,49 @@ h3,
     display: none;
 }
 
+.projects {
+    padding: var(--padding-10-px);
+}
+
+.project-description {
+    padding: var(--padding-10-px);
+}
+
 .projects-container,
 .education-container {
     display: grid;
+    grid-gap: var(--padding-5-px);
     grid-template-columns: 25% auto;
     padding: var(--padding-10-px);
 }
 
+/* .edu-with-hr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
 .move-up-hr {
-    margin-top: -1.875rem;
+    /* margin-top: -1.875rem; */
+    margin-top: var(--padding-negative-25);
 }
 
 .move-top-padding {
-    padding-top: var(--padding-20-px);
+    padding-top: var(--padding-30-px);
 }
 
 .left-section p {
-    padding-top: var(--padding-5-px);
+    padding-top: var(--padding-2-px);
+}
+
+.move-hr {
+    float: right;
+    margin-top: var(--padding-negative-20);
+    width: 75%;
+}
+
+.education-container {
+    clear: both;
 }
 
 .project-description,

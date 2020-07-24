@@ -24,7 +24,9 @@
 	--padding-10-px: 0.625rem;
 	--padding-15-px: 0.9375rem;
 	--padding-20-px: 1.25rem;
+	--padding-negative-20: -1.25rem;
 	--padding-25-px: 1.5625rem;
+	--padding-negative-25: -1.5625rem;
 	--padding-30-px: 1.875rem;
 	--padding-55-px: 3.4375rem;
 }
