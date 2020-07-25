@@ -3,9 +3,11 @@ import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ResumeRightSecond from './ResumeRightSecond';
 import ResumeRightSec from './ResumeRightSec';
+import ResumeRightProjects from './ResumeRightProjects';
 import ResumeRightThird from './ResumeRightThird';
 
 import './resumeRight.css';
+// import ResumeRightProjects from './ResumeRightProjects';
 
 export default class ResumeRight extends Component {
 	render() {
@@ -57,7 +59,8 @@ export default class ResumeRight extends Component {
 
 					<hr className="hr-mobile-view" />
 					{/* <ResumeRightSecond /> */}
-					<ResumeRightSec />
+					{/* <ResumeRightSec /> */}
+					<ResumeRightProjects />
 
 					<hr className="hr-mobile-view" />
 					<ResumeRightThird />
