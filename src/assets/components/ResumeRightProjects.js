@@ -8,7 +8,7 @@ export default class ResumeRightProjects extends Component {
 
         // const experienceComponent = expData.map((exp) => <ExperienceContainer date={exp.date} title={exp.title} project={exp.project} linkOne={exp.linkOne} linkTwo={exp.linkTwo} /> )
 
-        const experienceComponent = expData.map((exp) => <ExperienceContainer date={exp.date} title={exp.title} project={exp.project} linkOne={exp.linkOne} /> )
+        const experienceComponent = expData.map((exp) => <ExperienceContainer date={exp.date} title={exp.title} project={exp.project} description={exp.description} links={exp.links} /> )
         return (
             <article id="second">
 				<h2 className="h2-experience">experience</h2>

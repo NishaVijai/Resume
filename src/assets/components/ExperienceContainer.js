@@ -1,27 +1,29 @@
 import React from 'react';
 
 export default function ExperienceContainer(props) {
-	const linkContainer = props.linkOne.map((lin) => {
-		return lin.textFirst !== null && lin.textThird !== null ? (
-			<li>
-				{lin.textFirst}
-				{lin.text}{' '}
-				<a href={lin.url} target="_blank" rel="noopener  noreferrer">
-					{lin.name}
-				</a>{' '}
-				{lin.lastText}
-				{lin.textThird}
-			</li>
-		) : (
-			<li>
-				{lin.text}{' '}
-				<a href={lin.url} target="_blank" rel="noopener  noreferrer">
-					{lin.name}
-				</a>{' '}
-				{lin.lastText}
-			</li>
-		);
-	});
+	// const linkContainer = props.linkOne.map((lin) => {
+	// 	return lin.textFirst !== null && lin.textThird !== null ? (
+	// 		<li>
+	// 			{lin.textFirst}
+	// 			{lin.text}{' '}
+	// 			<a href={lin.url} target="_blank" rel="noopener  noreferrer">
+	// 				{lin.name}
+	// 			</a>{' '}
+	// 			{lin.lastText}
+	// 			{lin.textThird}
+	// 		</li>
+	// 	) : (
+	// 		<li>
+	// 			{lin.text}{' '}
+	// 			<a href={lin.url} target="_blank" rel="noopener  noreferrer">
+	// 				{lin.name}
+	// 			</a>{' '}
+	// 			{lin.lastText}
+	// 		</li>
+	// 	);
+	// });
+	const test = props.links.map((lin) => <li><a href={lin.link} target="_blank" rel="noopener  noreferrer">
+	</a>link</li>)
 	return (
 		<div className="projects-container">
 			<div className="project-2 projects left-section">
@@ -31,8 +33,20 @@ export default function ExperienceContainer(props) {
 			</div>
 
 			<div className="project-2-description project-description">
+				<ul>
+					{props.description.map((desc) => <li>{desc} </li> )}
+					{test}
+					{/* <li>
+					{props.links.map((lin) => <li>{' '}<a href={lin.githubLink} target="_blank" rel="noopener  noreferrer"> link
+						</a>{' '} </li>)}
+					</li> */}
+					
+					{/* <li><a href={lin.url} target="_blank" rel="noopener  noreferrer">
+							{lin.name}
+						</a>{' '}</li> */}
+				</ul>
 				{/* <ul> */}
-				{linkContainer}
+				{/* {linkContainer} */}
 				{/* <li>{props.linkOne.map((lin) => <li>{lin.text}{' '}
 						<a href={lin.url} target="_blank" rel="noopener  noreferrer">
 							{lin.name}
