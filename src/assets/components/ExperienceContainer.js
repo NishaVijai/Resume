@@ -10,22 +10,24 @@ export default function ExperienceContainer(props) {
 			</div>
 
 			<div className="project-2-description project-description">
-				<p>{props.linkOne}</p>
-				<p>
-					{props.githubText}{' '}
-					<a href={props.githubLink} target="_blank" rel="noopener  noreferrer">
-						{props.githubName}
-					</a>{' '}
-					{props.projectLanguages}
-				</p>
-				<p>{props.linkTwo}</p>
-				<p>
-					{props.projectTextOne}{' '}
-					<a href={props.projectLink} target="_blank" rel="noopener  noreferrer">
-						{props.projectName}
-					</a>{' '}
-					{props.projectTextTwo}{' '}
-				</p>
+				<ul>
+					<li>{props.linkOne}</li>
+					<li>
+						{props.githubText}{' '}
+						<a href={props.githubLink} target="_blank" rel="noopener  noreferrer">
+							{props.githubName}
+						</a>{' '}
+						{props.projectLanguages}
+					</li>
+					<li>{props.linkTwo}</li>
+					<li>
+						{props.projectTextOne}{' '}
+						<a href={props.projectLink} target="_blank" rel="noopener  noreferrer">
+							{props.projectName}
+						</a>{' '}
+						{props.projectTextTwo}{' '}
+					</li>
+				</ul>
 			</div>
 		</div>
 	);
