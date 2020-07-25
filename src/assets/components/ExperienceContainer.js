@@ -11,6 +11,7 @@ export default function ExperienceContainer(props) {
 
 			<div className="project-2-description project-description">
 				<ul>
+					<li>{props.linkOne}</li>
 					<li>
 						{props.githubText}{' '}
 						<a href={props.githubLink} target="_blank" rel="noopener  noreferrer">
@@ -18,6 +19,7 @@ export default function ExperienceContainer(props) {
 						</a>{' '}
 						{props.projectLanguages}
 					</li>
+					<li>{props.linkTwo}</li>
 					<li>
 						{props.projectTextOne}{' '}
 						<a href={props.projectLink} target="_blank" rel="noopener  noreferrer">
