@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import ResumeLeftLang from './ResumeLeftLang';
+
 import langData from './langData';
 
 import './resumeLeft.css';
-import ResumeLeftLang from './ResumeLeftLang';
 
 export default class ResumeLeft extends Component {
 	render() {
