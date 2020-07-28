@@ -15,7 +15,7 @@
 	--nav-link-hover-bg: rgba(201, 227, 238, 0.8);
 	--nav-link-hover-color: rgb(143, 17, 80);
 	--link-a: rgb(80, 25, 230);
-	--proj-p-color: #A55584;
+	--proj-p-color: #a55584;
 	--to-top-bg: rgba(212, 209, 210, 0.5);
 	--to-top-border: rgb(83, 118, 163);
 	--padding-1-px: 0.0625rem;
@@ -105,11 +105,11 @@ img {
 @media only screen and (max-width: 500px) {
 	* {
 		font-size: 0.9rem;
-    }
-    
-    .resume-container {
-        display: grid;
-        grid-template-columns: 30% auto;
+	}
+
+	.resume-container {
+		display: grid;
+		grid-template-columns: 30% auto;
 	}
 
 	/* resumeLeft */
@@ -123,7 +123,7 @@ img {
 		margin-top: 0;
 	}
 
-	.personal p, 
+	.personal p,
 	.languages p {
 		font-size: 0.9rem;
 	}
@@ -133,10 +133,6 @@ img {
 	}
 
 	/* ResumeRight */
-	main {
-		/* padding-top: var(--padding-15-px); */
-	}
-
 	header {
 		text-align: left;
 	}
@@ -165,9 +161,7 @@ img {
 
 	.nav-item {
 		position: fixed;
-		/* right: var(--padding-20-px); */
 		right: var(--padding-15-px);
-		/* top: var(--padding-55-px); */
 		top: var(--padding-65-px);
 	}
 
@@ -190,19 +184,11 @@ img {
 		display: none;
 	}
 
-	.projects p:nth-of-type(1),
-	.degrees p:nth-of-type(1),
-	.projects p:nth-of-type(2),
-	.degrees p:nth-of-type(2),
-	.projects p:nth-of-type(3) {
-		/* font-size: 0.8rem; */
-	}
-
 	.degrees p:nth-of-type(2),
 	.projects p:nth-of-type(3) {
 		font-size: 0.9rem;
 	}
-	
+
 	.projects-container,
 	.education-container {
 		display: flex;
