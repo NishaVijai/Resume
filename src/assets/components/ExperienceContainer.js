@@ -22,8 +22,10 @@ export default function ExperienceContainer(props) {
 	// 		</li>
 	// 	);
 	// });
-	const test = props.links.map((lin) => <li><a href={lin.link} target="_blank" rel="noopener  noreferrer">
-	</a>link</li>)
+	const test = props.links.map((lin) => 
+		<a href={lin.projLink} target="_blank" rel="noopener  noreferrer"><img src={lin.projImgLink} alt={lin.altText} height="30px" width="30px" /> {''}
+	</a>
+	)
 	return (
 		<div className="projects-container">
 			<div className="project-2 projects left-section">
@@ -33,9 +35,11 @@ export default function ExperienceContainer(props) {
 			</div>
 
 			<div className="project-2-description project-description">
+			
 				<ul>
 					{props.description.map((desc) => <li>{desc} </li> )}
-					{test}
+					<li>{test}</li>
+					
 					{/* <li>
 					{props.links.map((lin) => <li>{' '}<a href={lin.githubLink} target="_blank" rel="noopener  noreferrer"> link
 						</a>{' '} </li>)}
