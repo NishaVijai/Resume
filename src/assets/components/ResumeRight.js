@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ResumeRightProjects from './ResumeRightProjects';
-import ResumeRightEducation from './ResumeRightThird';
+import ResumeRightEducation from './ResumeRightEducation';
 
 import './resumeRight.css';
 
