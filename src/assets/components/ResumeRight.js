@@ -9,7 +9,7 @@ import './resumeRight.css';
 export default class ResumeRight extends Component {
 	render() {
 		const scrollToTop = () => {
-			scroll.scrollTo(2);
+			scroll.scrollTo(0);
 		};
 
 		const scrollToExperience = () => {
