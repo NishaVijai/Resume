@@ -16,6 +16,7 @@ export default class ResumeRightProjects extends Component {
 		return (
 			<article id="second">
 				<h2 className="h2-experience">experience</h2>
+				<hr className="move-hr" />
 				{experienceComponent}
 			</article>
 		);
