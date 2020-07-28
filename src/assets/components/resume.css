@@ -76,8 +76,13 @@ a:focus {
 
 img {
 	height: var(--padding-30-px);
-	margin: var(--padding-5-px) var(--padding-5-px) 0 0;
+	height: 2.5rem;
+	/* margin: var(--padding-5-px) var(--padding-5-px) 0 0; */
+	/* margin: var(--padding-5-px); */
+	padding-top: var(--padding-10-px);
+	padding-right: var(--padding-5-px);
 	width: var(--padding-30-px);
+	width: 2.5rem;
 }
 
 #h1-hr {
@@ -142,9 +147,9 @@ img {
 	}
 
 	img {
-		height: var(--padding-25-px);
-		margin: var(--padding-10-px) var(--padding-10-px) 0 0;
-		width: var(--padding-25-px);
+		/* height: var(--padding-30-px); */
+		/* margin: var(--padding-10-px) var(--padding-10-px) 0 0; */
+		/* width: var(--padding-30-px); */
 	}
 
 	#h1-hr {
