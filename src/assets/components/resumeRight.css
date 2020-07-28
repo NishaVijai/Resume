@@ -118,6 +118,10 @@ h3,
     padding: var(--padding-5-px);
 }
 
+.project-description li {
+    margin-top: 5px;
+}
+
 .projects p:nth-of-type(1),
 .degrees p:nth-of-type(1) {
     color: var(--proj-p-color);
