@@ -74,6 +74,12 @@ a:focus {
 	text-decoration: underline;
 }
 
+img {
+	height: var(--padding-30-px);
+	margin: var(--padding-5-px) var(--padding-5-px) 0 0;
+	width: var(--padding-30-px);
+}
+
 #h1-hr {
 	border-bottom: var(--padding-2-px) solid var(--secondary);
 	margin: auto;
@@ -140,8 +146,9 @@ a:focus {
 	}
 
 	img {
-		height: 25px;
-		width: 25px;
+		height: var(--padding-25-px);
+		margin: var(--padding-10-px) var(--padding-10-px) 0 0;
+		width: var(--padding-25-px);
 	}
 
 	#h1-hr {

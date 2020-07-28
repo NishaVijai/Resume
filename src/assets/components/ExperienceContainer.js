@@ -3,7 +3,7 @@ import React from 'react';
 export default function ExperienceContainer(props) {
 	const test = props.links.map((lin) => (
 		<a href={lin.projLink} target="_blank" rel="noopener  noreferrer" title={lin.altText}>
-			<img src={lin.projImgLink} alt={lin.altText} height="30px" width="30px" /> {''}
+			<img src={lin.projImgLink} alt={lin.altText} />
 		</a>
 	));
 	return (
