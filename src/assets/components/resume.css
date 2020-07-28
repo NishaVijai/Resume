@@ -28,7 +28,7 @@
 	--padding-25-px: 1.5625rem;
 	--padding-negative-25: -1.5625rem;
 	--padding-30-px: 1.875rem;
-	--padding-65-px: 4.0625rem;
+	--padding-50-px: 3.125rem;
 }
 
 * {
@@ -162,7 +162,12 @@ img {
 	.nav-item {
 		position: fixed;
 		right: var(--padding-15-px);
-		top: var(--padding-65-px);
+		top: var(--padding-50-px);
+	}
+
+	.link-item,
+	.to-top-button {
+		font-size: 0.7rem;
 	}
 
 	.hr-mobile-view {
