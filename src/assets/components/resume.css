@@ -74,11 +74,6 @@ a:focus {
 	text-decoration: underline;
 }
 
-.resume-container {
-	display: grid;
-	grid-template-columns: 22% auto;
-}
-
 #h1-hr {
 	border-bottom: var(--padding-2-px) solid var(--secondary);
 	margin: auto;
@@ -96,15 +91,66 @@ a:focus {
 	padding-top: var(--padding-5-px);
 }
 
+.resume-container {
+	display: grid;
+	grid-template-columns: 22% auto;
+}
+
 @media only screen and (max-width: 500px) {
 	* {
-		font-size: 0.8rem;
+		font-size: 0.9rem;
     }
     
     .resume-container {
         display: grid;
-        grid-template-columns: 35% auto;
+        grid-template-columns: 30% auto;
 	}
+
+	/* resumeLeft */
+
+	.resume-left {
+		padding: var(--padding-5-px);
+	}
+
+	.resume-left h2,
+	.lang-title h2 {
+		font-size: 1rem;
+		margin-top: 0;
+	}
+	
+	.resume-left p,
+	.personal a  {
+		/* font-size: 0.9rem; */
+	}
+
+	.personal h2 {
+		/* padding-top: 0; */
+	}
+
+	.personal p, 
+	.languages p {
+		font-size: 0.9rem;
+	}
+/* 
+	.front-end-lang p,
+	.back-end-lang p,
+	.lang p {
+		font-size: 0.8rem;
+	} */
+
+	.resume-left hr {
+		margin-top: var(--padding-20-px);
+	}
+
+	.lang-title h2 {
+		/* font-size: 1rem; */
+	}
+
+	.languages p {
+		/* font-size: 0.9rem; */
+	}
+
+	/* ResumeRight */
 
 	main {
 		padding-top: var(--padding-15-px);
@@ -127,27 +173,10 @@ a:focus {
 	}
 
 	#first a {
-		font-size: 0.9rem;
+		/* font-size: 0.8rem; */
 	}
 
-	/* resumeLeft */
-
-	.resume-left h2{
-		font-size: 1rem;
-		margin-top: 0;
-	}
 	
-	.resume-left p,
-	.personal a  {
-		font-size: 0.9rem;
-	}
-
-	.front-end-lang p,
-	.back-end-lang p,
-	.lang p {
-		font-size: 0.8rem;
-	}
-
 	/* resumeRight */
 
 	.nav-item {
