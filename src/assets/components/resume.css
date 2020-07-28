@@ -28,7 +28,7 @@
 	--padding-25-px: 1.5625rem;
 	--padding-negative-25: -1.5625rem;
 	--padding-30-px: 1.875rem;
-	--padding-55-px: 3.4375rem;
+	--padding-65-px: 4.0625rem;
 }
 
 * {
@@ -127,9 +127,8 @@ a:focus {
 	}
 
 	/* ResumeRight */
-
 	main {
-		padding-top: var(--padding-15-px);
+		/* padding-top: var(--padding-15-px); */
 	}
 
 	header {
@@ -137,11 +136,16 @@ a:focus {
 	}
 
 	h1 {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
+	}
+
+	img {
+		height: 25px;
+		width: 25px;
 	}
 
 	#h1-hr {
-		width: 50%;
+		width: 70%;
 	}
 
 	#first {
@@ -149,16 +153,15 @@ a:focus {
 	}
 
 	#first a {
-		/* font-size: 0.8rem; */
+		font-size: 0.9rem;
 	}
-
-	
-	/* resumeRight */
 
 	.nav-item {
 		position: fixed;
-		right: var(--padding-20-px);
-		top: var(--padding-55-px);
+		/* right: var(--padding-20-px); */
+		right: var(--padding-15-px);
+		/* top: var(--padding-55-px); */
+		top: var(--padding-65-px);
 	}
 
 	.hr-mobile-view {
@@ -176,7 +179,7 @@ a:focus {
 		font-size: 1rem;
 	}
 
-	.move-up-hr {
+	.move-hr {
 		display: none;
 	}
 
@@ -185,7 +188,12 @@ a:focus {
 	.projects p:nth-of-type(2),
 	.degrees p:nth-of-type(2),
 	.projects p:nth-of-type(3) {
-		font-size: 0.8rem;
+		/* font-size: 0.8rem; */
+	}
+
+	.degrees p:nth-of-type(2),
+	.projects p:nth-of-type(3) {
+		font-size: 0.9rem;
 	}
 	
 	.projects-container,
