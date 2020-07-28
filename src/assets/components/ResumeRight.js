@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import ResumeRightProjects from './ResumeRightProjects';
-import ResumeRightThird from './ResumeRightThird';
+import ResumeRightEducation from './ResumeRightThird';
 
 import './resumeRight.css';
 
@@ -57,7 +57,7 @@ export default class ResumeRight extends Component {
 					<ResumeRightProjects />
 
 					<hr className="hr-mobile-view" />
-					<ResumeRightThird />
+					<ResumeRightEducation />
 
 					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
 						{' '}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import EducationContainer from './EducationContainer';
 import educationData from './educationData';
 
-export default class ResumeRightThird extends Component {
+export default class ResumeRightEducation extends Component {
 	render() {
 		const educationComponent = educationData.map((data) => <EducationContainer date={data.date} name={data.name} education={data.education} /> )
 		return (
