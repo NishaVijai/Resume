@@ -23,7 +23,7 @@ export default function ExperienceContainer(props) {
 	// 	);
 	// });
 	const test = props.links.map((lin) => 
-		<a href={lin.projLink} target="_blank" rel="noopener  noreferrer"><img src={lin.projImgLink} alt={lin.altText} height="30px" width="30px" /> {''}
+		<a href={lin.projLink} target="_blank" rel="noopener  noreferrer" title={lin.altText}><img src={lin.projImgLink} alt={lin.altText} height="30px" width="30px" /> {''}
 	</a>
 	)
 	return (
