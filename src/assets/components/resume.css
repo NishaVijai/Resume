@@ -65,7 +65,8 @@ header {
 }
 
 h1 {
-	color: var(--main-h1);
+	/* color: var(--main-h1); */
+	color: var(--primary);
 	font-size: 1.7rem;
 	text-transform: uppercase;
 }
@@ -89,7 +90,7 @@ img {
 }
 
 #first a {
-	color: var(--link-a);
+	/* color: var(--link-a); */
 	font-size: 1.1rem;
 	font-style: italic;
 	font-weight: bold;
