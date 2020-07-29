@@ -108,6 +108,27 @@ img {
 		background-color: #22223a;
 	}
 
+	#resume-right-container {
+		color: rgba(252, 251, 246, 0.9);
+	}
+	.resume-left h2 {
+		color: rgb(192, 158, 46);
+	}
+
+	.resume-left hr {
+		border: var(--padding-1-px) solid rgb(230, 117, 25);
+	}
+
+	#first a {
+		color: rgb(44, 182, 216);
+	}
+
+	header h1,
+	.projects p:nth-of-type(1),
+	.degrees p:nth-of-type(1) {
+		color: rgb(230, 117, 25);
+	}
+
 	header #h1-hr {
 		border-bottom-color: rgb(102, 109, 8);
 	}
@@ -123,29 +144,8 @@ img {
 		font-weight: bolder;
 	}
 
-	.resume-left h2 {
-		color: rgb(192, 158, 46);
-	}
-
-	header h1,
-	.projects p:nth-of-type(1),
-	.degrees p:nth-of-type(1) {
-		color: rgb(230, 117, 25);
-	}
-	.resume-left hr {
-		border: var(--padding-1-px) solid rgb(230, 117, 25);
-	}
-
-	#resume-right-container {
-		color: rgba(252, 251, 246, 0.9);
-	}
-
 	.project-description li,
 	.education-description p {
-		color: rgb(44, 182, 216);
-	}
-
-	#first a {
 		color: rgb(44, 182, 216);
 	}
 }
