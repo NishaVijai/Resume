@@ -8,7 +8,7 @@ import './resumeLeft.css';
 export default class ResumeLeft extends Component {
 	render() {
 		const languageComponent = langData.map((data) => (
-			<ResumeLeftLang langTitle={data.langTitle} languages={data.languages}> <hr /> </ResumeLeftLang>
+			<ResumeLeftLang key={data.id} langTitle={data.langTitle} languages={data.languages}> <hr /> </ResumeLeftLang>
 		));
 		return (
 			<section className="resume-left">
