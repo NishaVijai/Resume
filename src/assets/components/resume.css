@@ -5,6 +5,12 @@
 :root {
 	--primary: rgb(73, 109, 155);
 	--secondary: rgb(221, 135, 23);
+	--dark-body-color: #22223a;
+	--dark-a-li-p-color: rgb(44, 182, 216);
+	--dark-nav-bg-color: rgba(13, 102, 109, 0.3);
+	--dark-nav-color: rgb(224, 219, 236);
+	--dark-left-h2: rgb(192, 158, 46);
+	--dark-resume-right-color: rgba(252, 251, 246, 0.9);
 	--left-bg: rgb(25, 49, 94);
 	--left-color: rgb(238, 237, 237);
 	--left-h2: rgb(230, 117, 25);
@@ -105,48 +111,46 @@ img {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background-color: #22223a;
+		background-color: var(--dark-body-color);
 	}
 
 	#resume-right-container {
-		color: rgba(252, 251, 246, 0.9);
+		color: var(--dark-resume-right-color);
 	}
+
 	.resume-left h2 {
-		color: rgb(192, 158, 46);
+		color: var(--dark-left-h2);
 	}
 
 	.resume-left hr {
-		border: var(--padding-1-px) solid rgb(230, 117, 25);
-	}
-
-	#first a {
-		color: rgb(44, 182, 216);
+		border: var(--padding-1-px) solid var(--left-h2);
 	}
 
 	header h1,
 	.projects p:nth-of-type(1),
 	.degrees p:nth-of-type(1) {
-		color: rgb(230, 117, 25);
+		color: var(--left-h2);
 	}
 
 	header #h1-hr {
-		border-bottom-color: rgb(102, 109, 8);
+		border-bottom-color: var(--left-hr);
 	}
 
 	.nav-item,
 	.to-top-button {
-		background: rgba(13, 102, 109, 0.3);
+		background: var(--dark-nav-bg-color);
 	}
 
 	.link-item,
 	.to-top-button {
-		color: rgb(224, 219, 236);
+		color: var(--dark-nav-color);
 		font-weight: bolder;
 	}
 
+	#first a,
 	.project-description li,
 	.education-description p {
-		color: rgb(44, 182, 216);
+		color: var(--dark-a-li-p-color);
 	}
 }
 
