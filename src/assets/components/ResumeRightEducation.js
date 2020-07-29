@@ -5,7 +5,7 @@ import educationData from './educationData';
 export default class ResumeRightEducation extends Component {
 	render() {
 		const educationComponent = educationData.map((data) => (
-			<EducationContainer date={data.date} name={data.name} education={data.education} />
+			<EducationContainer key={data.id} date={data.date} name={data.name} education={data.education} />
 		));
 		return (
 			<article id="third">
