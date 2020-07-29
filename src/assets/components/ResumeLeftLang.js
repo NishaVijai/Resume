@@ -11,7 +11,6 @@ export default function ResumeLeftLang(props) {
 			</div>
 
 			{props.children}
-			{/* <hr /> */}
 		</div>
 	);
 }
