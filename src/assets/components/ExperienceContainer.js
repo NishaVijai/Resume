@@ -20,7 +20,6 @@ export default function ExperienceContainer(props) {
 
 			<section className="project-description">
 				<ul>
-					{/* {props.description.map((desc) => <li key={desc.id}>{desc} </li>)} */}
 					{descriptionContainer}
 					<li>{imgList}</li>
 				</ul>
