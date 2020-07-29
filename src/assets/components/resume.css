@@ -225,7 +225,6 @@ img {
 
 	.nav-item {
 		position: fixed;
-		/* right: var(--padding-15-px); */
 		right: var(--padding-10-px);
 		top: var(--padding-50-px);
 	}
@@ -252,11 +251,6 @@ img {
 
 	.move-hr {
 		display: none;
-	}
-
-	.degrees p:nth-of-type(2),
-	.projects p:nth-of-type(3) {
-		/* font-size: 0.9rem; */
 	}
 
 	.projects-container,
