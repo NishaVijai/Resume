@@ -2,10 +2,14 @@ import React from 'react';
 
 export default function ExperienceContainer(props) {
 	const imgList = props.links.map((lin) => (
-		<a href={lin.projLink} target="_blank" rel="noopener  noreferrer" title={lin.altText}>
+		<a key={lin.id} href={lin.projLink} target="_blank" rel="noopener  noreferrer" title={lin.altText}>
 			<img src={lin.projImgLink} alt={lin.altText} />
 		</a>
 	));
+
+	const descriptionContainer = props.description.map((desc) => (
+	<li key={desc.id}>{desc.des}</li>));
+
 	return (
 		<article className="projects-container">
 			<section className="projects left-section">
@@ -16,7 +20,8 @@ export default function ExperienceContainer(props) {
 
 			<section className="project-description">
 				<ul>
-					{props.description.map((desc) => <li>{desc} </li>)}
+					{/* {props.description.map((desc) => <li key={desc.id}>{desc} </li>)} */}
+					{descriptionContainer}
 					<li>{imgList}</li>
 				</ul>
 			</section>
