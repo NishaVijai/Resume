@@ -6,6 +6,7 @@ export default class ResumeRightProjects extends Component {
 	render() {
 		const experienceComponent = expData.map((exp) => (
 			<ExperienceContainer
+				key={exp.id}
 				date={exp.date}
 				title={exp.title}
 				project={exp.project}
