@@ -2,11 +2,7 @@ import React from 'react';
 import Resume from './assets/components/Resume';
 
 function App() {
-	return (
-		<div>
-			<Resume />
-		</div>
-	);
+	return <Resume />;
 }
 
 export default App;
