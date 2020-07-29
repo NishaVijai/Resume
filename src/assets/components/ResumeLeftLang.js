@@ -2,15 +2,15 @@ import React from 'react';
 
 export default function ResumeLeftLang(props) {
 	return (
-		<div>
-			<div className="lang-title">
+		<React.Fragment>
+			<article className="lang-title">
 				<h2>{props.langTitle}</h2>
 				<div className="languages">
 					<p>{props.languages.map((la) => <p>{la}</p>)}</p>
 				</div>
-			</div>
+			</article>
 
 			{props.children}
-		</div>
+		</React.Fragment>
 	);
 }
