@@ -18,7 +18,7 @@ export default class Resume extends Component {
 						<p id="h1-hr" />
 						<address id="first">
 							<p>
-								Mail: <a href="mailto:nishavijai@gmail.com" title="Nisha's email address">nishavijai@gmail.com</a>
+								Mail: <a href="mailto:nishavijai@gmail.com" title="Nisha's g-mail address">nishavijai@gmail.com</a>
 							</p>
 
 							<p>
