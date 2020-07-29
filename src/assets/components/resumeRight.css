@@ -88,14 +88,10 @@ h3,
 .education-description {
     font-size: 1.1rem;
     margin: 0 var(--padding-10-px);
-    /* padding: var(--padding-5-px); */
 }
 
 .project-description li {
     margin-top: 5px;
-}
-.project-description {
-    /* padding: var(--padding-10-px); */
 }
 
 .projects {
