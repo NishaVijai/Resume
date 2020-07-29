@@ -25,6 +25,7 @@ export default class ResumeRight extends Component {
 				<nav className="nav-item">
 					<Link
 						aria-label="Experience Link"
+						title="Link to Experience Section"
 						tabIndex="0"
 						className="link-item"
 						onKeyPress={scrollToExperience}
@@ -40,6 +41,7 @@ export default class ResumeRight extends Component {
 
 					<Link
 						aria-label="Education Link"
+						title="Link to Education Section"
 						tabIndex="0"
 						className="link-item"
 						onKeyPress={scrollToEducation}
@@ -59,7 +61,7 @@ export default class ResumeRight extends Component {
 
 					<ResumeRightEducation />
 
-					<button aria-label="Go to top of the page button" tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
+					<button aria-label="Go to top of the page button" title="Link to go to top button" tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
 						{' '}
 						Top{' '}
 					</button>

@@ -18,11 +18,11 @@ export default class Resume extends Component {
 						<p id="h1-hr" />
 						<address id="first">
 							<p>
-								Mail: <a href="mailto:nishavijai@gmail.com">nishavijai@gmail.com</a>
+								Mail: <a href="mailto:nishavijai@gmail.com" title="Nisha's email address">nishavijai@gmail.com</a>
 							</p>
 
 							<p>
-								Mobile: <a href="tel:+45-53265717">+45-53265717</a>
+								Mobile: <a href="tel:+45-53265717" title="Nisha's mobile number">+45-53265717</a>
 							</p>
 
 							{/* <p>
