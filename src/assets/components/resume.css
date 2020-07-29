@@ -31,6 +31,73 @@
 	--padding-40-px: 2.5rem;
 	--padding-50-px: 3.125rem;
 }
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #22223a;
+		/* color: red; */
+	}
+
+	header #h1-hr {
+		border-bottom: var(--padding-2-px) solid rgb(102, 109, 8);
+		border-bottom-color: rgb(102, 109, 8);
+	}
+	/* 
+	#resume-right-container .nav-item {
+		color: rgba(252, 246, 249, 0.8);
+		color: red;
+	} */
+
+	.nav-item,
+	.to-top-button {
+		background: rgba(252, 251, 246, 0.9);
+	}
+
+	.link-item,
+	.to-top-button {
+		color: rgb(80, 87, 11);
+		/* color: rgb(230, 117, 25); */
+		font-weight: bolder;
+	}
+
+	.resume-left h2 {
+		color: rgb(192, 158, 46);
+	}
+
+	header h1 {
+		color: red;
+	}
+
+	header h1,
+	.projects p:nth-of-type(1),
+	.degrees p:nth-of-type(1) {
+		color: rgb(230, 117, 25);
+	}
+	.resume-left hr {
+		/* color: rgb(230, 117, 25); */
+		border: var(--padding-1-px) solid rgb(230, 117, 25);
+	}
+
+	#resume-right-container {
+		color: #39881a;
+		color: #ffab3c;
+		color: #e29734;
+		color: white;
+		color: rgb(235, 233, 233);
+		color: rgba(252, 251, 246, 0.9);
+	}
+
+	.project-description li,
+	.education-description p {
+		color: rgba(252, 251, 246, 0.9);
+		color: rgb(44, 182, 216);
+	}
+
+	#first a {
+		color: rgb(215, 219, 89);
+		color: #e29734;
+		color: rgb(44, 182, 216);
+	}
+}
 
 * {
 	box-sizing: border-box;
@@ -158,7 +225,8 @@ img {
 
 	.nav-item {
 		position: fixed;
-		right: var(--padding-15-px);
+		/* right: var(--padding-15-px); */
+		right: var(--padding-10-px);
 		top: var(--padding-50-px);
 	}
 
@@ -188,7 +256,7 @@ img {
 
 	.degrees p:nth-of-type(2),
 	.projects p:nth-of-type(3) {
-		font-size: 0.9rem;
+		/* font-size: 0.9rem; */
 	}
 
 	.projects-container,
