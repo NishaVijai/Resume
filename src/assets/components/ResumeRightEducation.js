@@ -9,6 +9,7 @@ export default class ResumeRightEducation extends Component {
 		));
 		return (
 			<article id="third">
+				<hr className="hr-mobile-view" />
 				<h3>education</h3>
 				<hr className="move-hr" />
 

@@ -2,16 +2,16 @@ import React from 'react';
 
 export default function EducationContainer(props) {
 	return (
-		<div className="education-container">
-			<div className="degrees left-section">
+		<article className="education-container">
+			<section className="degrees left-section">
 				<p>{props.date}</p>
 
 				<p>{props.name}</p>
-			</div>
+			</section>
 
-			<div className="education-description">
+			<section className="education-description">
 				<p>{props.education}</p>
-			</div>
-		</div>
+			</section>
+		</article>
 	);
 }

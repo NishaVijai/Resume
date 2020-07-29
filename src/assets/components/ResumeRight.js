@@ -53,10 +53,8 @@ export default class ResumeRight extends Component {
 				</nav>
 
 				<article className="right-side-container">
-					<hr className="hr-mobile-view" />
 					<ResumeRightProjects />
 
-					<hr className="hr-mobile-view" />
 					<ResumeRightEducation />
 
 					<button tabIndex="0" className="to-top-button" onKeyPress={scrollToTop} onClick={scrollToTop}>
