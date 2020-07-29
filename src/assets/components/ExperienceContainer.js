@@ -7,19 +7,19 @@ export default function ExperienceContainer(props) {
 		</a>
 	));
 	return (
-		<div className="projects-container">
-			<div className="projects left-section">
+		<article className="projects-container">
+			<section className="projects left-section">
 				<p>{props.date}</p>
 				<p>{props.title}</p>
 				<p>{props.project}</p>
-			</div>
+			</section>
 
-			<div className="project-description">
+			<section className="project-description">
 				<ul>
 					{props.description.map((desc) => <li>{desc} </li>)}
 					<li>{test}</li>
 				</ul>
-			</div>
-		</div>
+			</section>
+		</article>
 	);
 }

@@ -52,7 +52,7 @@ export default class ResumeRight extends Component {
 					</Link>
 				</nav>
 
-				<div className="right-side-container">
+				<article className="right-side-container">
 					<hr className="hr-mobile-view" />
 					<ResumeRightProjects />
 
@@ -63,7 +63,7 @@ export default class ResumeRight extends Component {
 						{' '}
 						Top{' '}
 					</button>
-				</div>
+				</article>
 			</section>
 		);
 	}
