@@ -135,12 +135,16 @@ img {
 
 	.nav-item,
 	.to-top-button {
-		background: rgba(252, 251, 246, 0.9);
+		/* background: rgba(252, 251, 246, 0.9);
+		background: rgba(192, 237, 240, 0.9);
+		background: rgba(192, 237, 240, 0.3); */
+		background: rgba(13, 102, 109, 0.3);
 	}
 
 	.link-item,
 	.to-top-button {
-		color: rgb(80, 87, 11);
+		/* color: rgb(80, 87, 11); */
+		color: rgb(224, 219, 236);
 		font-weight: bolder;
 	}
 
