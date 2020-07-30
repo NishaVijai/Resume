@@ -13,8 +13,8 @@ export default class ResumeLeft extends Component {
 		return (
 			<section className="resume-left">
 				<article className="personal">
-					<h2>personal</h2>
-					<p>
+					<h2 tabIndex="0">personal</h2>
+					<p tabIndex="0">
 						A self-motivated, creative, and ambitious individual with Masters degree in Computer
 						Applications, as well as knowledge and proficiency in JavaScript, React, Semantic HTML, CSS, and
 						mobile responsive website development.

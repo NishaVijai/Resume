@@ -8,20 +8,20 @@ export default function ExperienceContainer(props) {
 	));
 
 	const descriptionContainer = props.description.map((desc) => (
-	<li key={desc.id}>{desc.des}</li>));
+	<li key={desc.id} tabIndex="0">{desc.des}</li>));
 
 	return (
 		<article className="projects-container">
 			<section className="projects left-section">
-				<p>{props.date}</p>
-				<p>{props.title}</p>
-				<p>{props.project}</p>
+				<p tabIndex="0">{props.date}</p>
+				<p tabIndex="0">{props.title}</p>
+				<p tabIndex="0">{props.project}</p>
 			</section>
 
 			<section className="project-description">
 				<ul>
 					{descriptionContainer}
-					<li>{imgList}</li>
+					<li tabIndex="0">{imgList}</li>
 				</ul>
 			</section>
 		</article>

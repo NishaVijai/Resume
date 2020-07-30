@@ -9,24 +9,24 @@ export default class Resume extends Component {
 		return (
 			<div className="resume-container">
 				<header>
-					<h1>front-end web developer</h1>
+					<h1 tabIndex="0">front-end web developer</h1>
 					<p id="h1-hr" />
 					<address id="first">
-						<p>
+						<p tabIndex="0">
 							Mail:{' '}
 							<a href="mailto:nishavijai@gmail.com" title="Nisha's g-mail address">
 								nishavijai@gmail.com
 							</a>
 						</p>
 
-						<p>
+						<p tabIndex="0">
 							Mobile:{' '}
 							<a href="tel:+45-53265717" title="Nisha's mobile number">
 								+45-53265717
 							</a>
 						</p>
 
-						{/* <p>
+						{/* <p tabIndex="0">
 								Website:{' '}
 								<a
 									href="https://nishasportfolio.netlify.com/"
