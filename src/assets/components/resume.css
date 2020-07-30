@@ -207,7 +207,6 @@ img {
 	}
 
 	.nav-item {
-		/* cursor: pointer; */
 		position: fixed;
 		right: var(--padding-15-px);
 		top: var(--padding-50-px);
