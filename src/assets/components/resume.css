@@ -157,6 +157,7 @@ img {
 @media only screen and (max-width: 500px) {
 	* {
 		font-size: 0.9rem;
+	
 	}
 
 	.resume-container {
@@ -206,14 +207,22 @@ img {
 	}
 
 	.nav-item {
+		/* cursor: pointer; */
 		position: fixed;
-		right: var(--padding-10-px);
+		right: var(--padding-15-px);
 		top: var(--padding-50-px);
 	}
 
 	.link-item,
 	.to-top-button {
 		font-size: 0.7rem;
+	}
+
+	.nav-item:hover,
+	.nav-item:focus,
+	.to-top-button:hover,
+	.to-top-button:focus {
+		cursor: pointer;
 	}
 
 	.hr-mobile-view {

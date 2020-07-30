@@ -4,7 +4,7 @@
 
 #second,
 #third {
-    margin: var(--padding-10-px);
+    /* margin: var(--padding-10-px); */
     padding-top: var(--padding-15-px);
 }
 
@@ -23,11 +23,13 @@ h3,
 .nav-item {
     background: var(--nav-bg);
     border-radius: var(--padding-20-px);
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     font-size: 0.9rem;
     position: fixed;
-    right: var(--padding-20-px);
+    /* right: var(--padding-20-px); */
+    right: var(--padding-30-px);
     top: var(--padding-20-px);
     -webkit-border-radius: var(--padding-20-px);
     -moz-border-radius: var(--padding-20-px);
@@ -128,12 +130,14 @@ h3,
     border: none;
     border-radius: 50%;
     color: var(--nav-color);
+    cursor: pointer;
     font-size: 1rem;
     letter-spacing: 0.1rem;
     padding: var(--padding-10-px);
     position: fixed;
     bottom: 5%;
-    right: var(--padding-20-px);
+    /* right: var(--padding-20-px); */
+    right: var(--padding-30-px);
     text-transform: uppercase;
     outline: none !important;
     -webkit-border-radius: 50%;

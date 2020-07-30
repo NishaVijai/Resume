@@ -8,7 +8,7 @@ const educationData = [
 	{
 		id: 2,
 		date: 'August 2016 - January 2017',
-		name: 'Pædagoguddannelsen UCC',
+		name: 'Pædagog - uddannelsen UCC',
 		education: 'First semester at Pædagoguddannelsen UCC- Hillerød'
 	},
 	{
