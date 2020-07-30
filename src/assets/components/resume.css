@@ -107,6 +107,19 @@ img {
 .resume-container {
 	display: grid;
 	grid-template-columns: 22% auto;
+	grid-template-areas: "a h" "a m" "a m";
+}
+
+header {
+	grid-area: h;
+}
+
+aside {
+	grid-area: a;
+}
+
+main {
+	grid-area: m;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -163,7 +176,6 @@ img {
 @media only screen and (max-width: 500px) {
 	* {
 		font-size: 0.9rem;
-	
 	}
 
 	.resume-container {

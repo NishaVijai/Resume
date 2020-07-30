@@ -8,24 +8,25 @@ export default class Resume extends Component {
 	render() {
 		return (
 			<div className="resume-container">
-				<aside>
-					<ResumeLeft />
-				</aside>
+				<header>
+					<h1>front-end web developer</h1>
+					<p id="h1-hr" />
+					<address id="first">
+						<p>
+							Mail:{' '}
+							<a href="mailto:nishavijai@gmail.com" title="Nisha's g-mail address">
+								nishavijai@gmail.com
+							</a>
+						</p>
 
-				<main>
-					<header>
-						<h1>front-end web developer</h1>
-						<p id="h1-hr" />
-						<address id="first">
-							<p>
-								Mail: <a href="mailto:nishavijai@gmail.com" title="Nisha's g-mail address">nishavijai@gmail.com</a>
-							</p>
+						<p>
+							Mobile:{' '}
+							<a href="tel:+45-53265717" title="Nisha's mobile number">
+								+45-53265717
+							</a>
+						</p>
 
-							<p>
-								Mobile: <a href="tel:+45-53265717" title="Nisha's mobile number">+45-53265717</a>
-							</p>
-
-							{/* <p>
+						{/* <p>
 								Website:{' '}
 								<a
 									href="https://nishasportfolio.netlify.com/"
@@ -35,9 +36,13 @@ export default class Resume extends Component {
 									nishasportfolio
 								</a>
 							</p> */}
-						</address>
-					</header>
+					</address>
+				</header>
+				<aside>
+					<ResumeLeft />
+				</aside>
 
+				<main>
 					<ResumeRight />
 				</main>
 			</div>
