@@ -112,6 +112,7 @@ img {
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: var(--dark-body-color);
+		color: var(--dark-resume-right-color);
 	}
 
 	#resume-right-container {
