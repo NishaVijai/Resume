@@ -80,8 +80,10 @@ h3,
     display: none;
 }
 
-.left-section p {
-    padding-top: var(--padding-2-px);
+.left-section p,
+.education-description p {
+    /* padding-top: var(--padding-2-px); */
+    padding-top: var(--padding-10-px);
 }
 
 .project-description,
