@@ -17,13 +17,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/chingu-voyages/v12-solo-NishaVijai',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of v12-solo project'
+				altText: 'GitHub repository link of v12-solo project',
+				imgTitle: 'GitHub Image for v12-solo project'
 			},
 			{
 				id: 2,
 				projLink: 'https://vaersgo.netlify.com/',
 				projImgLink: netlifyImage,
-				altText: 'Cloned-Værsgo website hosted in Netlify'
+				altText: 'Cloned-Værsgo website hosted in Netlify',
+				imgTitle: 'Netlify Image for Cloned-Værsgo website'
 			}
 		]
 	},
@@ -40,13 +42,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/chingu-voyages/v11-solo-NishaVijai',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of v11-solo project'
+				altText: 'GitHub repository link of v11-solo project',
+				imgTitle: 'GitHub Image for v11-solo project'
 			},
 			{
 				id: 2,
 				projLink: 'https://cloned-kickstarter.netlify.com/',
 				projImgLink: netlifyImage,
-				altText: 'Cloned-Kickstarter website hosted in Netlify'
+				altText: 'Cloned-Kickstarter website hosted in Netlify',
+				imgTitle: 'Netlify Image for Cloned-Kickstarter website'
 			}
 		]
 	},
@@ -68,13 +72,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/chingu-voyages/v9-toucans-team-14',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of v-09 group project'
+				altText: 'GitHub repository link of v-09 group project',
+				imgTitle: 'GitHub Image for v-09 group project'
 			},
 			{
 				id: 2,
 				projLink: 'https://chingu-shoe-project.herokuapp.com/',
 				projImgLink: herokuImage,
-				altText: 'Shoe Web App hosted in Heroku'
+				altText: 'Shoe Web App hosted in Heroku',
+				imgTitle: 'Heroku Image for Shoe Web App'
 			}
 		]
 	},
@@ -91,13 +97,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/NishaVijai/Chingu-09-prework-project',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of Chingu-09 prework solo project'
+				altText: 'GitHub repository link of Chingu-09 prework solo project',
+				imgTitle: 'GitHub Image for Chingu-09 prework solo project'
 			},
 			{
 				id: 2,
 				projLink: 'https://nishavijai.github.io/Chingu-09-prework-project/',
 				projImgLink: gitHubHostedImage,
-				altText: 'INITAB hosted in Github pages'
+				altText: 'INITAB extension hosted in Github pages',
+				imgTitle: 'GitHub pages Image for INITAB extension'
 			}
 		]
 	},
@@ -119,13 +127,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/chingu-voyages/v8-toucans-team-09',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of v-08 group project'
+				altText: 'GitHub repository link of v-08 group project',
+				imgTitle: 'GitHub Image for v-08 group project'
 			},
 			{
 				id: 2,
 				projLink: 'https://chingu-voyages.github.io/v8-toucans-team-09/',
 				projImgLink: gitHubHostedImage,
-				altText: 'Cloned Chingu website hosted in Github pages'
+				altText: 'Cloned Chingu website hosted in Github pages',
+				imgTitle: 'GitHub pages Image for Cloned Chingu website'
 			}
 		]
 	},
@@ -142,13 +152,15 @@ const expData = [
 				id: 1,
 				projLink: 'https://github.com/NishaVijai/pre-work-solo-project',
 				projImgLink: gitHubImage,
-				altText: 'GitHub repository link of v-08 prework solo project'
+				altText: 'GitHub repository link of v-08 prework solo project',
+				imgTitle: 'GitHub Image for v-08 prework solo project'
 			},
 			{
 				id: 2,
 				projLink: 'https://nishavijai.github.io/pre-work-solo-project/',
 				projImgLink: gitHubHostedImage,
-				altText: 'TickyBot hosted in Github pages'
+				altText: 'TickyBot landing page hosted in Github pages',
+				imgTitle: 'GitHub pages Image for TickyBot landing page'
 			}
 		]
 	}
