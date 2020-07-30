@@ -11,7 +11,9 @@ const expData = [
 		project: 'chingu-voyage 12',
 		description: [ 
 			{id: 1,
-			des: 'Built a cloned vaersgo single page website using HTML,CSS and React'} ],
+			des: 'A cloned vaersgo single page website '},
+			{id: 2,
+			des: 'Built using HTML,CSS and React'} ],
 		links: [
 			{
 				id: 1,
@@ -36,7 +38,9 @@ const expData = [
 		project: 'chingu-voyage 11',
 		description: [ 
 			{id: 1,
-			des: 'Built a cloned kickstarter single page website using HTML,CSS and React'} ],
+			des: 'A cloned kickstarter single page website'},
+			{id: 2,
+			des: 'Built using HTML,CSS and React'} ],
 		links: [
 			{
 				id: 1,
@@ -91,7 +95,9 @@ const expData = [
 		project: 'chingu-voyage 09 - prework-solo-project',
 		description: [ 
 			{id: 1,
-			des: 'Built a chrome extension called INITAB using HTML,CSS and JavaScript'} ],
+			des: 'A chrome extension called INITAB extension'},
+			{id: 2,
+			des: 'Built using HTML,CSS and JavaScript'} ],
 		links: [
 			{
 				id: 1,
