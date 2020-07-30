@@ -83,8 +83,6 @@ a:focus {
 
 img {
 	height: var(--padding-40-px);
-	/* padding-top: var(--padding-10-px);
-	padding-right: var(--padding-5-px); */
 	padding-right: var(--padding-5-px);
 	vertical-align: middle;
 	width: var(--padding-40-px);
