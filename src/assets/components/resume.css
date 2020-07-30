@@ -252,8 +252,7 @@ main {
 		margin: 0;
 	}
 
-	h3,
-	.h2-experience {
+	h3 {
 		font-size: 1rem;
 	}
 
