@@ -153,6 +153,11 @@ img {
 	.education-description p {
 		color: var(--dark-a-li-p-color);
 	}
+
+	img {
+		filter: invert(80%);
+		-webkit-filter: invert(80%);
+	}
 }
 
 @media only screen and (max-width: 500px) {
