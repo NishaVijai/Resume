@@ -80,7 +80,7 @@ h3,
     display: none;
 }
 
-.left-section p,
+.degrees p,
 .education-description p {
     padding-top: var(--padding-10-px);
 }
