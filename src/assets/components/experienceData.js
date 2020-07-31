@@ -13,7 +13,7 @@ const expData = [
 			{id: 1,
 			des: 'Built a cloned vaersgo single page website using HTML,CSS and React'},
 			{id: 2,
-			des: 'It is a Danish ecommerce website, which can be used to purchase home appliances'} ],
+			des: 'It is a ecommerce website, which can be used to purchase home appliances'} ],
 		links: [
 			{
 				id: 1,
