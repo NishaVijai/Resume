@@ -20,6 +20,11 @@ const expData = [
         des:
           "It is a ecommerce website, which can be used to purchase home appliances",
       },
+      {
+        id: 3,
+        des:
+          "Learned to use lazy loading for the image heavy site like this and used Grid layout and practiced to host this site using Netlify",
+      },
     ],
     links: [
       {
@@ -48,6 +53,11 @@ const expData = [
         id: 1,
         des:
           "Built a cloned kickstarter single page website using HTML,CSS and React",
+      },
+      {
+        id: 2,
+        des:
+          "Applied previous projects React knowledge to finish this solo project and hosted the site using Heroku",
       },
     ],
     links: [
@@ -84,6 +94,11 @@ const expData = [
         des:
           "We divided the app into different components and used Trello for project management",
       },
+      {
+        id: 4,
+        des:
+          "Learned React basic and applied the knowledge to build this shoe app and practiced to use Trello and learned to host the site using Heroku",
+      },
     ],
     links: [
       {
@@ -113,6 +128,11 @@ const expData = [
         des:
           "Built a chrome extension called INITAB using HTML,CSS and JavaScript",
       },
+      {
+        id: 2,
+        des:
+          "First time experience to build and style an extension and used JavaScript to implement a live clock",
+      },
     ],
     links: [
       {
@@ -140,7 +160,7 @@ const expData = [
       {
         id: 1,
         des:
-          "Group project with two remote team members from England and Uganda",
+          "First time experience to work with two remote team members from England and Uganda",
       },
       {
         id: 2,
@@ -148,6 +168,11 @@ const expData = [
           "Built a cloned Chingu single page website using HTML, CSS and JavaScript",
       },
       { id: 3, des: "Used GitHub board to track our tasks" },
+      {
+        id: 4,
+        des:
+          "Learned to use gitHub board, shared the workload and completed the project together with my team members",
+      },
     ],
     links: [
       {
@@ -175,6 +200,10 @@ const expData = [
       {
         id: 1,
         des: "Built TickyBot website using HTML, CSS and vanilla JavaScript",
+      },
+      {
+        id: 2,
+        des: "Learned to use simple vanilla javaScript and media queries",
       },
     ],
     links: [
