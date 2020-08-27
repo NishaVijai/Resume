@@ -84,6 +84,11 @@ h3 {
     padding-top: var(--padding-10-px);
 }
 
+.education-description p:nth-of-type(2) {
+    color: var(--dark-resume-right-color);
+    font-size: 0.9rem;
+}
+
 .project-description,
 .education-description {
     font-size: 1.1rem;
