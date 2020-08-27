@@ -85,7 +85,7 @@ h3 {
 }
 
 .education-description p:nth-of-type(2) {
-  color: var(--dark-resume-right-color);
+  /* color: var(--dark-resume-right-color); */
   font-size: 0.9rem;
 }
 
@@ -100,7 +100,8 @@ h3 {
 }
 
 .project-description ul li a {
-  color: var(--dark-resume-right-color);
+  /* color: var(--dark-resume-right-color); */
+  color: inherit;
   font-size: 1rem;
   list-style: none;
 }

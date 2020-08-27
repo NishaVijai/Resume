@@ -255,6 +255,7 @@ main {
   #second a {
     align-items: center;
     display: flex;
+    font-size: 0.9rem;
   }
 
   #second a img {
