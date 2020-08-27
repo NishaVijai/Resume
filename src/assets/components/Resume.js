@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ResumeLeft from "./ResumeLeft";
 import ResumeRight from "./ResumeRight";
 
+import ResumePDF from "../images/resume_nishavijai_vercel_app.pdf";
+
 import "./resume.css";
 
 export default class Resume extends Component {
@@ -37,6 +39,12 @@ export default class Resume extends Component {
                 rel="noopener  noreferrer"
               >
                 nishasportfolio
+              </a>
+            </p>
+            <p tabIndex="0">
+              Download:{" "}
+              <a href={ResumePDF} target="_blank" rel="noopener  noreferrer">
+                Resume as PDF
               </a>
             </p>
           </address>
