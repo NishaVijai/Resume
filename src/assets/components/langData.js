@@ -13,7 +13,7 @@ const langData = [
       },
       {
         id: 3,
-        lang: "react.js & React storybook",
+        lang: "react.js & Storybook",
       },
       {
         id: 4,
