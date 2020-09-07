@@ -9,11 +9,11 @@ const langData = [
       },
       {
         id: 2,
-        lang: "css - less, Tailwind & Bulma",
+        lang: "css - sass, less, Tailwind & Bulma",
       },
       {
         id: 3,
-        lang: "react.js & Storybook",
+        lang: "react.js",
       },
       {
         id: 4,
