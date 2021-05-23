@@ -9,19 +9,15 @@ const langData = [
       },
       {
         id: 2,
-        lang: "css - sass, less, Tailwind & Bulma",
+        lang: "css - sass, Bootstrap & Tailwind",
       },
       {
         id: 3,
-        lang: "react.js",
+        lang: "react & vue",
       },
       {
         id: 4,
-        lang: "javascript",
-      },
-      {
-        id: 5,
-        lang: "typescript",
+        lang: "javascript & typescript",
       },
     ],
   },

@@ -6,24 +6,51 @@ import herokuImage from "../images/heroku.svg";
 const expData = [
   {
     id: 1,
+    date: "September 2020 - Present",
+    title: "trainee front-end web developer",
+    project: "JO Informatik - Helsingør",
+    description: [
+      {
+        id: 1,
+        des: "QGIS Python plugin using QT Designer and Python",
+      },
+      {
+        id: 2,
+        des: "Kortkomponent using HTML, CSS, Javascript",
+      },
+      {
+        id: 3,
+        des: "Vue Kortkomponent using Vue, Typescript",
+      },
+    ],
+    links: [
+      {
+        id: 1,
+        projLink: "https://github.com/JO-Informatik-ApS/FlyFotosDK4QGIS",
+        projImgLink: gitHubImage,
+        altText: "GitHub repository link of FlyFotos Project",
+        imgTitle: "GitHub Image for FlyFotos Project",
+        linkName: "GitHub Repo Link",
+      },
+    ],
+  },
+  {
+    id: 2,
     date: "October 2019 - November 2019",
     title: "front-end web developer",
     project: "chingu-voyage 12",
     description: [
       {
         id: 1,
-        des:
-          "Built a cloned vaersgo single page website using HTML,CSS and React",
+        des: "Built a cloned vaersgo single page website using HTML,CSS and React",
       },
       {
         id: 2,
-        des:
-          "It is a ecommerce website, which can be used to purchase home appliances",
+        des: "It is a ecommerce website, which can be used to purchase home appliances",
       },
       {
         id: 3,
-        des:
-          "Learned to use lazy loading for the image heavy site like this and used Grid layout and practiced to host this site using Netlify",
+        des: "Learned to use lazy loading for the image heavy site like this and used Grid layout and practiced to host this site using Netlify",
       },
     ],
     links: [
@@ -46,20 +73,18 @@ const expData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     date: "September 2019 - October 2019",
     title: "front-end web developer",
     project: "chingu-voyage 11",
     description: [
       {
         id: 1,
-        des:
-          "Built a cloned kickstarter single page website using HTML,CSS and React",
+        des: "Built a cloned kickstarter single page website using HTML,CSS and React",
       },
       {
         id: 2,
-        des:
-          "Applied previous projects React knowledge to finish this solo project and hosted the site using Heroku",
+        des: "Applied previous projects React knowledge to finish this solo project and hosted the site using Heroku",
       },
     ],
     links: [
@@ -82,7 +107,7 @@ const expData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     date: "June 2019 - July 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - group project",
@@ -90,18 +115,15 @@ const expData = [
       { id: 1, des: "Group project with two remote team members" },
       {
         id: 2,
-        des:
-          "Built a dynamic web app to showcase shoes using HTML,CSS and React",
+        des: "Built a dynamic web app to showcase shoes using HTML,CSS and React",
       },
       {
         id: 3,
-        des:
-          "We divided the app into different components and used Trello for project management",
+        des: "We divided the app into different components and used Trello for project management",
       },
       {
         id: 4,
-        des:
-          "Learned React basic and applied the knowledge to build this shoe app and practiced to use Trello and learned to host the site using Heroku",
+        des: "Learned React basic and applied the knowledge to build this shoe app and practiced to use Trello and learned to host the site using Heroku",
       },
     ],
     links: [
@@ -124,20 +146,18 @@ const expData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     date: "May 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - prework-solo-project",
     description: [
       {
         id: 1,
-        des:
-          "Built a chrome extension called INITAB using HTML,CSS and JavaScript",
+        des: "Built a chrome extension called INITAB using HTML,CSS and JavaScript",
       },
       {
         id: 2,
-        des:
-          "First time experience to build and style an extension and used JavaScript to implement a live clock",
+        des: "First time experience to build and style an extension and used JavaScript to implement a live clock",
       },
     ],
     links: [
@@ -160,26 +180,23 @@ const expData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     date: "March 2019 - April 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - group project",
     description: [
       {
         id: 1,
-        des:
-          "First time experience to work with two remote team members from England and Uganda",
+        des: "First time experience to work with two remote team members from England and Uganda",
       },
       {
         id: 2,
-        des:
-          "Built a cloned Chingu single page website using HTML, CSS and JavaScript",
+        des: "Built a cloned Chingu single page website using HTML, CSS and JavaScript",
       },
       { id: 3, des: "Used GitHub board to track our tasks" },
       {
         id: 4,
-        des:
-          "Learned to use gitHub board, shared the workload and completed the project together with my team members",
+        des: "Learned to use gitHub board, shared the workload and completed the project together with my team members",
       },
     ],
     links: [
@@ -202,7 +219,7 @@ const expData = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     date: "February 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - prework-solo-project",
