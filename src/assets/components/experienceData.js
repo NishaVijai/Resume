@@ -9,6 +9,7 @@ const expData = [
     date: "September 2020 - Present",
     title: "trainee front-end web developer",
     project: "JO Informatik - Helsingør",
+    compLink: "https://www.jo-informatik.dk/",
     description: [
       {
         id: 1,
@@ -39,6 +40,7 @@ const expData = [
     date: "October 2019 - November 2019",
     title: "front-end web developer",
     project: "chingu-voyage 12",
+    compLink: "https://chingu.io/",
     description: [
       {
         id: 1,
@@ -77,6 +79,7 @@ const expData = [
     date: "September 2019 - October 2019",
     title: "front-end web developer",
     project: "chingu-voyage 11",
+    compLink: "https://chingu.io/",
     description: [
       {
         id: 1,
@@ -111,6 +114,7 @@ const expData = [
     date: "June 2019 - July 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - group project",
+    compLink: "https://chingu.io/",
     description: [
       { id: 1, des: "Group project with two remote team members" },
       {
@@ -150,6 +154,7 @@ const expData = [
     date: "May 2019",
     title: "front-end web developer",
     project: "chingu-voyage 09 - prework-solo-project",
+    compLink: "https://chingu.io/",
     description: [
       {
         id: 1,
@@ -184,6 +189,7 @@ const expData = [
     date: "March 2019 - April 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - group project",
+    compLink: "https://chingu.io/",
     description: [
       {
         id: 1,
@@ -223,6 +229,7 @@ const expData = [
     date: "February 2019",
     title: "front-end web developer",
     project: "chingu-voyage 08 - prework-solo-project",
+    compLink: "https://chingu.io/",
     description: [
       {
         id: 1,

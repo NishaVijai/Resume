@@ -30,7 +30,9 @@ export default function ExperienceContainer(props) {
       <section className="projects left-section">
         <p tabIndex="0">{props.date}</p>
         <p tabIndex="0">{props.title}</p>
-        <p tabIndex="0">{props.project}</p>
+        <p tabIndex="0">
+          <a href={props.compLink}>{props.project}</a>
+        </p>
       </section>
 
       <section className="project-description">
