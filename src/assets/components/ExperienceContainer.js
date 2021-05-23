@@ -31,7 +31,9 @@ export default function ExperienceContainer(props) {
         <p tabIndex="0">{props.date}</p>
         <p tabIndex="0">{props.title}</p>
         <p tabIndex="0">
-          <a href={props.compLink}>{props.project}</a>
+          <a href={props.compLink} target="_blank" rel="noopener  noreferrer">
+            {props.project}
+          </a>
         </p>
       </section>
 
