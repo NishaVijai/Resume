@@ -57,13 +57,14 @@ export default class Resume extends Component {
             data-vanity="noorun-nisha-319976105"
             data-version="v1"
           >
+            LinkedIn Profile:{" "}
             <a
               className="badge-base__link LI-simple-link"
               href="https://dk.linkedin.com/in/noorun-nisha-319976105?trk=profile-badge"
               target="_blank"
               rel="noopener  noreferrer"
             >
-              Noorunnisha LinkedIn Profile
+              Noorunnisha
             </a>
           </div>
         </header>
