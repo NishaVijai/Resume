@@ -48,6 +48,24 @@ export default class Resume extends Component {
               </a>
             </p>
           </address>
+          <div
+            className="badge-base LI-profile-badge"
+            data-locale="en_US"
+            data-size="medium"
+            data-theme="light"
+            data-type="VERTICAL"
+            data-vanity="noorun-nisha-319976105"
+            data-version="v1"
+          >
+            <a
+              className="badge-base__link LI-simple-link"
+              href="https://dk.linkedin.com/in/noorun-nisha-319976105?trk=profile-badge"
+              target="_blank"
+              rel="noopener  noreferrer"
+            >
+              Noorunnisha LinkedIn Profile
+            </a>
+          </div>
         </header>
         <aside>
           <ResumeLeft />
